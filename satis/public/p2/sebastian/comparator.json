@@ -1,0 +1,651 @@
+{
+    "packages": {
+        "sebastian/comparator": [
+            {
+                "name": "sebastian/comparator",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "c484a80f97573ab934e37826dba0135a3301b26a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-c484a80f97573ab934e37826dba0135a3301b26a-zip-c1e89e.tar",
+                    "reference": "c484a80f97573ab934e37826dba0135a3301b26a",
+                    "shasum": "1154935b75a7d8eab79cf0f602002dc9b294f608",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "sebastian/diff": "~1.1",
+                    "sebastian/exporter": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.1"
+                },
+                "time": "2014-11-16T21:32:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "http://www.github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-6a1ed12e8b2409076ab22e3897126211ff8b1f7f-zip-60a9ca.tar",
+                    "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                    "shasum": "46d06cfdf93faafe4cc956d5c864fbefc1a56bc0",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "sebastian/diff": "~1.2",
+                    "sebastian/exporter": "~1.2 || ~2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2016-11-19T09:18:40+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "http://www.github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "6554a8aff8735fcd859b44279d5c03a6d1b1cb23"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-6554a8aff8735fcd859b44279d5c03a6d1b1cb23-zip-8509b2.tar",
+                    "reference": "6554a8aff8735fcd859b44279d5c03a6d1b1cb23",
+                    "shasum": "8216dc4dd368c134c4f8361ebaac4e85b7aba406",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "sebastian/diff": "~1.2",
+                    "sebastian/exporter": "~1.2 || ~2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2017-01-29T07:17:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "http://www.github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-2b7424b55f5047b47ac6e5ccb20b2aea4011d9be-zip-5c4a53.tar",
+                    "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                    "shasum": "3932f25defb0ac189aa94e693c035e03dca91c98",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "sebastian/diff": "~1.2",
+                    "sebastian/exporter": "~1.2 || ~2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2017-01-29T09:50:25+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "http://www.github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "1174d9018191e93cb9d719edec01257fc05f8158"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-1174d9018191e93cb9d719edec01257fc05f8158-zip-5ecc61.tar",
+                    "reference": "1174d9018191e93cb9d719edec01257fc05f8158",
+                    "shasum": "c4686b230d9f44b21d84c30392f0559de7f29986",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0",
+                    "sebastian/diff": "^2.0",
+                    "sebastian/exporter": "^3.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.4"
+                },
+                "time": "2017-11-03T07:16:52+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "https://github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "34369daee48eafb2651bea869b4b15d75ccc35f9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-34369daee48eafb2651bea869b4b15d75ccc35f9-zip-346c56.tar",
+                    "reference": "34369daee48eafb2651bea869b4b15d75ccc35f9",
+                    "shasum": "35965453e215632b91bea9ee48643638ac6cd350",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0",
+                    "sebastian/diff": "^2.0 || ^3.0",
+                    "sebastian/exporter": "^3.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.4"
+                },
+                "time": "2018-02-01T13:46:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "https://github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "ed5fd2281113729f1ebcc64d101ad66028aeb3d5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-ed5fd2281113729f1ebcc64d101ad66028aeb3d5-zip-95a964.tar",
+                    "reference": "ed5fd2281113729f1ebcc64d101ad66028aeb3d5",
+                    "shasum": "1cca2bc158a6e44190e0e545db0f2b5f2b689f40",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1",
+                    "sebastian/diff": "^3.0",
+                    "sebastian/exporter": "^3.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.1"
+                },
+                "time": "2018-04-18T13:33:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "https://github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-5de4fc177adf9bce8df98d8d141a7559d7ccf6da-zip-bbaa6e.tar",
+                    "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da",
+                    "shasum": "37f2235b0b45a5d4fce80db497d7c1b532ebe5c0",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1",
+                    "sebastian/diff": "^3.0",
+                    "sebastian/exporter": "^3.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.1"
+                },
+                "time": "2018-07-12T15:12:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "https://github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ]
+            },
+            {
+                "name": "sebastian/comparator",
+                "version": "4.0.3",
+                "version_normalized": "4.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/comparator.git",
+                    "reference": "dcc580eadfaa4e7f9d2cf9ae1922134ea962e14f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/comparator/sebastian-comparator-dcc580eadfaa4e7f9d2cf9ae1922134ea962e14f-zip-54244a.tar",
+                    "reference": "dcc580eadfaa4e7f9d2cf9ae1922134ea962e14f",
+                    "shasum": "3ce5745229d3b4d9fcafef05e285d5db32a3a81e",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.3 || ^8.0",
+                    "sebastian/diff": "^4.0",
+                    "sebastian/exporter": "^4.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-06-26T12:05:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@2bepublished.at"
+                    }
+                ],
+                "description": "Provides the functionality to compare PHP values for equality",
+                "homepage": "https://github.com/sebastianbergmann/comparator",
+                "keywords": [
+                    "comparator",
+                    "compare",
+                    "equality"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

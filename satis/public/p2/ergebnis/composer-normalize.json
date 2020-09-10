@@ -1,0 +1,155 @@
+{
+    "packages": {
+        "ergebnis/composer-normalize": [
+            {
+                "name": "ergebnis/composer-normalize",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/composer-normalize.git",
+                    "reference": "91c456e7a2f3c6e8245895cf748187056914b012"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/composer-normalize/ergebnis-composer-normalize-91c456e7a2f3c6e8245895cf748187056914b012-zip-27aa0f.tar",
+                    "reference": "91c456e7a2f3c6e8245895cf748187056914b012",
+                    "shasum": "e1753ac40c7cedb72b2320b156739bf540ad337d",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1.0",
+                    "ergebnis/composer-json-normalizer": "^2.0.0",
+                    "ergebnis/json-normalizer": "~0.10.0",
+                    "ergebnis/json-printer": "^3.0.1",
+                    "localheinz/diff": "^1.0.1",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.7.0",
+                    "ergebnis/php-cs-fixer-config": "~1.1.1",
+                    "ergebnis/phpstan-rules": "~0.14.1",
+                    "ergebnis/test-util": "~0.9.0",
+                    "jangregor/phpstan-prophecy": "~0.5.0",
+                    "phpstan/extension-installer": "^1.0.3",
+                    "phpstan/phpstan": "~0.11.19",
+                    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                    "phpstan/phpstan-strict-rules": "~0.11.1",
+                    "phpunit/phpunit": "^8.5.0",
+                    "symfony/filesystem": "^4.4.1"
+                },
+                "time": "2019-12-17T08:12:55+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Ergebnis\\Composer\\Normalize\\NormalizePlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Composer\\Normalize\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a composer plugin for normalizing composer.json.",
+                "homepage": "https://github.com/ergebnis/composer-normalize",
+                "keywords": [
+                    "composer",
+                    "normalize",
+                    "normalizer",
+                    "plugin"
+                ]
+            },
+            {
+                "name": "ergebnis/composer-normalize",
+                "version": "2.8.1",
+                "version_normalized": "2.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/composer-normalize.git",
+                    "reference": "e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/composer-normalize/ergebnis-composer-normalize-e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39-zip-d69ab0.tar",
+                    "reference": "e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39",
+                    "shasum": "ebb3498b0fc677f6424a056f8cdfbd4ada11282b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1.0 || ^2.0.0",
+                    "ergebnis/json-normalizer": "~0.13.1",
+                    "ergebnis/json-printer": "^3.1.1",
+                    "justinrainbow/json-schema": "^5.2.10",
+                    "localheinz/diff": "^1.1.1",
+                    "php": "^7.2 || ^8.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.10.8 || ^2.0.0",
+                    "composer/package-versions-deprecated": "^1.11.99",
+                    "ergebnis/phpstan-rules": "~0.15.2",
+                    "ergebnis/test-util": "^1.1.0",
+                    "jangregor/phpstan-prophecy": "~0.8.0",
+                    "phpstan/extension-installer": "^1.0.5",
+                    "phpstan/phpstan": "~0.12.40",
+                    "phpstan/phpstan-deprecation-rules": "~0.12.5",
+                    "phpstan/phpstan-phpunit": "~0.12.16",
+                    "phpstan/phpstan-strict-rules": "~0.12.4",
+                    "phpunit/phpunit": "^8.5.8",
+                    "symfony/filesystem": "^5.1.3"
+                },
+                "time": "2020-08-30T16:32:02+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Ergebnis\\Composer\\Normalize\\NormalizePlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Composer\\Normalize\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a composer plugin for normalizing composer.json.",
+                "homepage": "https://github.com/ergebnis/composer-normalize",
+                "keywords": [
+                    "composer",
+                    "normalize",
+                    "normalizer",
+                    "plugin"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/localheinz",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

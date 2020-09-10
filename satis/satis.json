@@ -1,0 +1,18 @@
+{
+  "name": "self-repository",
+  "homepage": "http://127.0.0.1:8099/",
+  "repositories": [
+    { "type": "composer", "url": "https://mirrors.aliyun.com/composer/" }
+  ],
+  "require":{
+  	"guzzlehttp/guzzle":"*"
+  },
+  "require-dependencies": true,
+  "require-dev-dependencies": true,
+  "archive": {
+        "directory": "dist",
+        "format": "tar",
+        "prefix-url": "http://127.0.0.1:8099/",
+        "skip-dev": true
+    }
+}

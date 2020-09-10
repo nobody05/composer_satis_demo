@@ -1,0 +1,111 @@
+{
+    "packages": {
+        "phpdocumentor/type-resolver": [
+            {
+                "name": "phpdocumentor/type-resolver",
+                "version": "0.7.x-dev",
+                "version_normalized": "0.7.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                    "reference": "e424cdf9bbab5bccdede5f123f706083b11bcef9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/e424cdf9bbab5bccdede5f123f706083b11bcef9",
+                    "reference": "e424cdf9bbab5bccdede5f123f706083b11bcef9",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "phpdocumentor/reflection-common": "~2.0.0-beta1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1",
+                    "phpunit/phpunit": "~6"
+                },
+                "time": "2019-12-20T14:34:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike van Riel",
+                        "email": "me@mikevanriel.com"
+                    }
+                ],
+                "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names"
+            },
+            {
+                "name": "phpdocumentor/type-resolver",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                    "reference": "e21c0bd532911ec05ebc258e4086ea61c86e0750"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/e21c0bd532911ec05ebc258e4086ea61c86e0750",
+                    "reference": "e21c0bd532911ec05ebc258e4086ea61c86e0750",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.2 || ^8.0",
+                    "phpdocumentor/reflection-common": "^2.0"
+                },
+                "require-dev": {
+                    "ext-tokenizer": "*"
+                },
+                "time": "2020-09-02T21:29:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-1.x": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike van Riel",
+                        "email": "me@mikevanriel.com"
+                    }
+                ],
+                "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names"
+            }
+        ]
+    }
+}

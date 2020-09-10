@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "phpdocumentor/reflection-common": [
+            {
+                "name": "phpdocumentor/reflection-common",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
+                    "reference": "cf8df60735d98fd18070b7cab0019ba0831e219c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/cf8df60735d98fd18070b7cab0019ba0831e219c",
+                    "reference": "cf8df60735d98fd18070b7cab0019ba0831e219c",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2020-06-19T17:42:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jaap van Otterdijk",
+                        "email": "opensource@ijaap.nl"
+                    }
+                ],
+                "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
+                "homepage": "http://www.phpdoc.org",
+                "keywords": [
+                    "FQSEN",
+                    "phpDocumentor",
+                    "phpdoc",
+                    "reflection",
+                    "static analysis"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "packages": {
+        "phar-io/manifest": [
+            {
+                "name": "phar-io/manifest",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phar-io/manifest.git",
+                    "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phar-io/manifest/phar-io-manifest-2df402786ab5368a0169091f61a7c1e0eb6852d0-zip-b771a5.tar",
+                    "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0",
+                    "shasum": "92575e860bdd155845227112623ae183ee393687",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-phar": "*",
+                    "phar-io/version": "^1.0.1",
+                    "php": "^5.6 || ^7.0"
+                },
+                "time": "2017-03-05T18:14:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Heuer",
+                        "email": "sebastian@phpeople.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)"
+            },
+            {
+                "name": "phar-io/manifest",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phar-io/manifest.git",
+                    "reference": "29654cc208939d684071d5725dd1ad1f3e5d1733"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phar-io/manifest/phar-io-manifest-29654cc208939d684071d5725dd1ad1f3e5d1733-zip-af4e1b.tar",
+                    "reference": "29654cc208939d684071d5725dd1ad1f3e5d1733",
+                    "shasum": "fb4328682fee578674811533be4f37da62394ff8",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-phar": "*",
+                    "phar-io/version": "2.0.0",
+                    "php": "^5.6 || ^7.0"
+                },
+                "time": "2018-06-23T10:38:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Heuer",
+                        "email": "sebastian@phpeople.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)"
+            },
+            {
+                "name": "phar-io/manifest",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phar-io/manifest.git",
+                    "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phar-io/manifest/phar-io-manifest-7761fcacf03b4d4f16e7ccb606d4879ca431fcf4-zip-16fcd4.tar",
+                    "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+                    "shasum": "034f51db87595e83b02d5f62de53e541e2dbd4ad",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-phar": "*",
+                    "phar-io/version": "^2.0",
+                    "php": "^5.6 || ^7.0"
+                },
+                "time": "2018-07-08T19:23:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Heuer",
+                        "email": "sebastian@phpeople.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "packages": {
+        "symfony/polyfill-intl-idn": [
+            {
+                "name": "symfony/polyfill-intl-idn",
+                "version": "v1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                    "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-intl-idn/symfony-polyfill-intl-idn-c766e95bec706cdd89903b1eda8afab7d7a6b7af-zip-7887b0.tar",
+                    "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                    "shasum": "3e9d27b43051c44667abcc0068633d0c9b786b2d",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/polyfill-mbstring": "^1.3",
+                    "symfony/polyfill-php72": "^1.9"
+                },
+                "suggest": {
+                    "ext-intl": "For best performance"
+                },
+                "time": "2019-03-04T13:44:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    },
+                    {
+                        "name": "Laurent Bassin",
+                        "email": "laurent@bassin.info"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "idn",
+                    "intl",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ]
+            },
+            {
+                "name": "symfony/polyfill-intl-idn",
+                "version": "v1.17.0",
+                "version_normalized": "1.17.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                    "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-intl-idn/symfony-polyfill-intl-idn-3bff59ea7047e925be6b7f2059d60af31bb46d6a-zip-e0add8.tar",
+                    "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a",
+                    "shasum": "db28f9c124853b6778469012d2cd7bd5cd26d993",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/polyfill-mbstring": "^1.3",
+                    "symfony/polyfill-php72": "^1.10"
+                },
+                "suggest": {
+                    "ext-intl": "For best performance"
+                },
+                "time": "2020-05-12T16:47:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.17-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Laurent Bassin",
+                        "email": "laurent@bassin.info"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "idn",
+                    "intl",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ]
+            },
+            {
+                "name": "symfony/polyfill-intl-idn",
+                "version": "v1.18.1",
+                "version_normalized": "1.18.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                    "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-intl-idn/symfony-polyfill-intl-idn-5dcab1bc7146cf8c1beaa4502a3d9be344334251-zip-c0184f.tar",
+                    "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+                    "shasum": "4a745c8a64ed6278e2d850a741ed2d9c1e5a7075",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/polyfill-intl-normalizer": "^1.10",
+                    "symfony/polyfill-php70": "^1.10",
+                    "symfony/polyfill-php72": "^1.10"
+                },
+                "suggest": {
+                    "ext-intl": "For best performance"
+                },
+                "time": "2020-08-04T06:02:08+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.18-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/polyfill",
+                        "url": "https://github.com/symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Laurent Bassin",
+                        "email": "laurent@bassin.info"
+                    },
+                    {
+                        "name": "Trevor Rowbotham",
+                        "email": "trevor.rowbotham@pm.me"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "idn",
+                    "intl",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ]
+            }
+        ]
+    }
+}

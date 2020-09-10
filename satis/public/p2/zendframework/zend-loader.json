@@ -1,0 +1,118 @@
+{
+    "packages": {
+        "zendframework/zend-loader": [
+            {
+                "name": "zendframework/zend-loader",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-loader.git",
+                    "reference": "c874b46282932bbd124247600f93eb3ed04693de"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-loader/zendframework-zend-loader-c874b46282932bbd124247600f93eb3ed04693de-zip-935dde.tar",
+                    "reference": "c874b46282932bbd124247600f93eb3ed04693de",
+                    "shasum": "d27befd1d48b305360824797e1aa73a6b0f10fa1",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "suggest": {
+                    "zendframework/zend-stdlib": "Zend\\Stdlib component"
+                },
+                "time": "2012-10-17T13:43:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Loader\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-loader",
+                "keywords": [
+                    "loader",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-loader"
+            },
+            {
+                "name": "zendframework/zend-loader",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-loader.git",
+                    "reference": "14bf428a42bc5be09d8ddf9b847d42f675b539f3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-loader/zendframework-zend-loader-14bf428a42bc5be09d8ddf9b847d42f675b539f3-zip-05b935.tar",
+                    "reference": "14bf428a42bc5be09d8ddf9b847d42f675b539f3",
+                    "shasum": "c4b1069db995221f09b3d028665a92496addd8ed",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "suggest": {
+                    "zendframework/zend-stdlib": "Zend\\Stdlib component"
+                },
+                "time": "2013-01-26T11:18:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Loader\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-loader",
+                "keywords": [
+                    "loader",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-loader"
+            }
+        ]
+    }
+}

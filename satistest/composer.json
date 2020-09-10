@@ -1,0 +1,14 @@
+{
+	"require":{
+		"guzzlehttp/guzzle":"~6.2.0"
+	},
+	"config": {
+        "secure-http": false
+  },
+	"repositories": [
+        {
+            "type": "composer",
+            "url": "http://127.0.0.1:8099/"
+        }
+    ]
+}

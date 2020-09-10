@@ -1,0 +1,218 @@
+{
+    "packages": {
+        "phpunit/php-text-template": [
+            {
+                "name": "phpunit/php-text-template",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                    "reference": "1da672430d58dcbb21139a018febe038d8500fd8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/php-text-template/phpunit-php-text-template-1da672430d58dcbb21139a018febe038d8500fd8-zip-b8d662.tar",
+                    "reference": "1da672430d58dcbb21139a018febe038d8500fd8",
+                    "shasum": "e5b43d603178f42cb7d226ca71bd6460fe35c37d",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.2.7"
+                },
+                "time": "2012-09-23T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Text/Template/Autoload.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Simple template engine.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "template"
+                ]
+            },
+            {
+                "name": "phpunit/php-text-template",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                    "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/php-text-template/phpunit-php-text-template-206dfefc0ffe9cebf65c413e3d0e809c82fbf00a-zip-dce9d3.tar",
+                    "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                    "shasum": "7410aedfed3a588a84072e1cc4ad4f11ef814fbc",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2014-01-30T17:20:04+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Text/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Simple template engine.",
+                "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+                "keywords": [
+                    "template"
+                ]
+            },
+            {
+                "name": "phpunit/php-text-template",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                    "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/php-text-template/phpunit-php-text-template-31f8b717e51d9a2afca6c9f046f5d69fc27c8686-zip-c6bcbd.tar",
+                    "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+                    "shasum": "eca99353e12a0ae90c4603b56a06809b815d1a7c",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2015-06-21T13:50:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Simple template engine.",
+                "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+                "keywords": [
+                    "template"
+                ]
+            },
+            {
+                "name": "phpunit/php-text-template",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                    "reference": "6ff9c8ea4d3212b88fcf74e25e516e2c51c99324"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/php-text-template/phpunit-php-text-template-6ff9c8ea4d3212b88fcf74e25e516e2c51c99324-zip-4043f2.tar",
+                    "reference": "6ff9c8ea4d3212b88fcf74e25e516e2c51c99324",
+                    "shasum": "4dadf78e4d1473b4667c125b9f42930243a1511b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.3 || ^8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-06-26T11:55:37+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Simple template engine.",
+                "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+                "keywords": [
+                    "template"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

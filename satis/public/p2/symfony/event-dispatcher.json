@@ -1,0 +1,326 @@
+{
+    "packages": {
+        "symfony/event-dispatcher": [
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "11d844997699682f23b6fbb50c00d343c645654f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/event-dispatcher/symfony-event-dispatcher-11d844997699682f23b6fbb50c00d343c645654f-zip-00fc5c.tar",
+                    "reference": "11d844997699682f23b6fbb50c00d343c645654f",
+                    "shasum": "5017b30c60b4320dc32b158e0a46c97c1c3cd6ec",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2011-09-26T22:55:43+00:00",
+                "type": "library",
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    },
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "http://symfony.com"
+            },
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "target-dir": "Symfony/Component/EventDispatcher",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "421520fd35ace52106947b2d6c2d9db49cb5a866"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/event-dispatcher/symfony-event-dispatcher-421520fd35ace52106947b2d6c2d9db49cb5a866-zip-1b6e13.tar",
+                    "reference": "421520fd35ace52106947b2d6c2d9db49cb5a866",
+                    "shasum": "976749bcd24da8b3d01cd967e8211fd93203532e",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "symfony/dependency-injection": "2.1.*"
+                },
+                "suggest": {
+                    "symfony/dependency-injection": "v2.1.0",
+                    "symfony/http-kernel": "v2.1.0"
+                },
+                "time": "2012-08-22T13:48:41+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\EventDispatcher": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    },
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "http://symfony.com"
+            },
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "v2.1.13",
+                "version_normalized": "2.1.13.0",
+                "target-dir": "Symfony/Component/EventDispatcher",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "e1d18ff0ff6f3e45ac82f000bc221135df635527"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/event-dispatcher/symfony-event-dispatcher-e1d18ff0ff6f3e45ac82f000bc221135df635527-zip-c254b4.tar",
+                    "reference": "e1d18ff0ff6f3e45ac82f000bc221135df635527",
+                    "shasum": "4e89274a44703adf7b0dcf8a8f7bdbe8735d42c1",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "symfony/dependency-injection": "2.1.*"
+                },
+                "suggest": {
+                    "symfony/dependency-injection": "2.1.*",
+                    "symfony/http-kernel": "2.1.*"
+                },
+                "time": "2013-02-11T11:26:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\EventDispatcher": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    },
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "http://symfony.com"
+            },
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "v2.8.52",
+                "version_normalized": "2.8.52.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "a77e974a5fecb4398833b0709210e3d5e334ffb0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/event-dispatcher/symfony-event-dispatcher-a77e974a5fecb4398833b0709210e3d5e334ffb0-zip-1f588c.tar",
+                    "reference": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+                    "shasum": "a9132178cc04c295420de9f56d8959ee61f24f06",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.9"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^2.0.5|~3.0.0",
+                    "symfony/dependency-injection": "~2.6|~3.0.0",
+                    "symfony/expression-language": "~2.6|~3.0.0",
+                    "symfony/stopwatch": "~2.3|~3.0.0"
+                },
+                "suggest": {
+                    "symfony/dependency-injection": "",
+                    "symfony/http-kernel": ""
+                },
+                "time": "2018-11-21T14:20:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.8-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\EventDispatcher\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "v5.1.5",
+                "version_normalized": "5.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "94871fc0a69c3c5da57764187724cdce0755899c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/event-dispatcher/symfony-event-dispatcher-94871fc0a69c3c5da57764187724cdce0755899c-zip-57a0c9.tar",
+                    "reference": "94871fc0a69c3c5da57764187724cdce0755899c",
+                    "shasum": "c66bff508f46e336a21dce3b9448b9fecba6812b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/event-dispatcher-contracts": "^2",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4"
+                },
+                "provide": {
+                    "psr/event-dispatcher-implementation": "1.0",
+                    "symfony/event-dispatcher-implementation": "2.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/expression-language": "^4.4|^5.0",
+                    "symfony/http-foundation": "^4.4|^5.0",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/stopwatch": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "symfony/dependency-injection": "",
+                    "symfony/http-kernel": ""
+                },
+                "time": "2020-08-13T14:19:42+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\EventDispatcher\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ]
+            }
+        ]
+    }
+}

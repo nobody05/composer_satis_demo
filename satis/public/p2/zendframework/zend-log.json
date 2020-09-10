@@ -1,0 +1,216 @@
+{
+    "packages": {
+        "zendframework/zend-log": [
+            {
+                "name": "zendframework/zend-log",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-log.git",
+                    "reference": "5f606fe699e9ae58ab6e51a621a2ffb4b5409ab9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-log/zendframework-zend-log-5f606fe699e9ae58ab6e51a621a2ffb4b5409ab9-zip-0f9b43.tar",
+                    "reference": "5f606fe699e9ae58ab6e51a621a2ffb4b5409ab9",
+                    "shasum": "cf7e991e2cb09d89a16aed602fb01acadc258e50",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-servicemanager": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-console": "self.version",
+                    "zendframework/zend-db": "self.version",
+                    "zendframework/zend-escaper": "self.version",
+                    "zendframework/zend-mail": "self.version",
+                    "zendframework/zend-validator": "self.version"
+                },
+                "suggest": {
+                    "ext-mongo": "*",
+                    "zendframework/zend-console": "Zend\\Console component",
+                    "zendframework/zend-db": "Zend\\Db component",
+                    "zendframework/zend-escaper": "Zend\\Escaper component, for use in the XML formatter",
+                    "zendframework/zend-mail": "Zend\\Mail component",
+                    "zendframework/zend-validator": "Zend\\Validator component"
+                },
+                "time": "2012-10-17T13:57:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Log\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "component for general purpose logging",
+                "homepage": "https://github.com/zendframework/zend-log",
+                "keywords": [
+                    "log",
+                    "logging",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-log"
+            },
+            {
+                "name": "zendframework/zend-log",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-log.git",
+                    "reference": "11ffe3264a60b747390f72bf0419f8fac672b325"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-log/zendframework-zend-log-11ffe3264a60b747390f72bf0419f8fac672b325-zip-9cd640.tar",
+                    "reference": "11ffe3264a60b747390f72bf0419f8fac672b325",
+                    "shasum": "e58603d52cd9570234fe273f487446279caa6d62",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-servicemanager": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-console": "self.version",
+                    "zendframework/zend-db": "self.version",
+                    "zendframework/zend-escaper": "self.version",
+                    "zendframework/zend-mail": "self.version",
+                    "zendframework/zend-validator": "self.version"
+                },
+                "suggest": {
+                    "ext-mongo": "*",
+                    "zendframework/zend-console": "Zend\\Console component",
+                    "zendframework/zend-db": "Zend\\Db component",
+                    "zendframework/zend-escaper": "Zend\\Escaper component, for use in the XML formatter",
+                    "zendframework/zend-mail": "Zend\\Mail component",
+                    "zendframework/zend-validator": "Zend\\Validator component"
+                },
+                "time": "2013-01-29T22:23:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Log\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "component for general purpose logging",
+                "homepage": "https://github.com/zendframework/zend-log",
+                "keywords": [
+                    "log",
+                    "logging",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-log"
+            },
+            {
+                "name": "zendframework/zend-log",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-log.git",
+                    "reference": "545c3710c9d59390462525b442c6ead3d66c6361"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-log/zendframework-zend-log-545c3710c9d59390462525b442c6ead3d66c6361-zip-b07e3c.tar",
+                    "reference": "545c3710c9d59390462525b442c6ead3d66c6361",
+                    "shasum": "6717e6fff926d6278c296e2cd51702e6c98e032b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-servicemanager": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-console": "self.version",
+                    "zendframework/zend-db": "self.version",
+                    "zendframework/zend-escaper": "self.version",
+                    "zendframework/zend-mail": "self.version",
+                    "zendframework/zend-validator": "self.version"
+                },
+                "suggest": {
+                    "ext-mongo": "*",
+                    "zendframework/zend-console": "Zend\\Console component",
+                    "zendframework/zend-db": "Zend\\Db component",
+                    "zendframework/zend-escaper": "Zend\\Escaper component, for use in the XML formatter",
+                    "zendframework/zend-mail": "Zend\\Mail component",
+                    "zendframework/zend-validator": "Zend\\Validator component"
+                },
+                "time": "2014-03-05T17:29:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev",
+                        "dev-develop": "2.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Log\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "component for general purpose logging",
+                "homepage": "https://github.com/zendframework/zend-log",
+                "keywords": [
+                    "log",
+                    "logging",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-log"
+            }
+        ]
+    }
+}

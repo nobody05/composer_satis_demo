@@ -1,0 +1,128 @@
+{
+    "packages": {
+        "localheinz/diff": [
+            {
+                "name": "localheinz/diff",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/localheinz/diff.git",
+                    "reference": "bd5661db4bbed26c6f25df8851fd9f4b424a356e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/localheinz/diff/localheinz-diff-bd5661db4bbed26c6f25df8851fd9f4b424a356e-zip-925039.tar",
+                    "reference": "bd5661db4bbed26c6f25df8851fd9f4b424a356e",
+                    "shasum": "27ae65908bf580c5a0e7fe820b8a358158ba814d",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5 || ^8.0",
+                    "symfony/process": "^2 || ^3.3 || ^4"
+                },
+                "time": "2019-12-17T07:42:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    }
+                ],
+                "description": "Fork of sebastian/diff for use with ergebnis/composer-normalize",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ]
+            },
+            {
+                "name": "localheinz/diff",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/localheinz/diff.git",
+                    "reference": "851bb20ea8358c86f677f5f111c4ab031b1c764c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/localheinz/diff/localheinz-diff-851bb20ea8358c86f677f5f111c4ab031b1c764c-zip-9c5256.tar",
+                    "reference": "851bb20ea8358c86f677f5f111c4ab031b1c764c",
+                    "shasum": "917394cdafafa89b9d89e61a6de99264defdeeb1",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5 || ^8.0",
+                    "symfony/process": "^4.2 || ^5"
+                },
+                "time": "2020-07-06T04:49:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    }
+                ],
+                "description": "Fork of sebastian/diff for use with ergebnis/composer-normalize",
+                "homepage": "https://github.com/localheinz/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

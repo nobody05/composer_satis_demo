@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "psr/event-dispatcher": [
+            {
+                "name": "psr/event-dispatcher",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/event-dispatcher.git",
+                    "reference": "3b1c10727b12ecdfc7b80b040b887a94c64d8388"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/3b1c10727b12ecdfc7b80b040b887a94c64d8388",
+                    "reference": "3b1c10727b12ecdfc7b80b040b887a94c64d8388",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "time": "2020-05-26T00:50:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\EventDispatcher\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Standard interfaces for event handling.",
+                "keywords": [
+                    "events",
+                    "psr",
+                    "psr-14"
+                ]
+            }
+        ]
+    }
+}

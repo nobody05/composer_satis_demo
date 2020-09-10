@@ -1,0 +1,136 @@
+{
+    "packages": {
+        "ergebnis/composer-json-normalizer": [
+            {
+                "name": "ergebnis/composer-json-normalizer",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/composer-json-normalizer.git",
+                    "reference": "e23221df44973cd394fedc8cb70c19caaa6b027d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/composer-json-normalizer/ergebnis-composer-json-normalizer-e23221df44973cd394fedc8cb70c19caaa6b027d-zip-93de95.tar",
+                    "reference": "e23221df44973cd394fedc8cb70c19caaa6b027d",
+                    "shasum": "3210ba5491ca020575d92368406625531dd7bf5c",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ergebnis/json-normalizer": "~0.10.0",
+                    "ext-json": "*",
+                    "justinrainbow/json-schema": "^4.0.0 || ^5.0.0",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "ergebnis/php-cs-fixer-config": "~1.1.1",
+                    "ergebnis/phpstan-rules": "~0.14.1",
+                    "ergebnis/test-util": "~0.9.0",
+                    "infection/infection": "~0.13.6",
+                    "jangregor/phpstan-prophecy": "~0.5.0",
+                    "phpstan/extension-installer": "^1.0.3",
+                    "phpstan/phpstan": "~0.11.19",
+                    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                    "phpstan/phpstan-strict-rules": "~0.11.1",
+                    "phpunit/phpunit": "^8.5.0"
+                },
+                "time": "2019-12-15T14:16:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Composer\\Json\\Normalizer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides normalizers for normalizing composer.json.",
+                "homepage": "https://github.com/ergebnis/composer-json-normalizer",
+                "keywords": [
+                    "composer",
+                    "json",
+                    "normalizer"
+                ],
+                "abandoned": "ergebnis/json-normalizer"
+            },
+            {
+                "name": "ergebnis/composer-json-normalizer",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/composer-json-normalizer.git",
+                    "reference": "0279214509baf22905c99fe5528e1b74533e6a42"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/composer-json-normalizer/ergebnis-composer-json-normalizer-0279214509baf22905c99fe5528e1b74533e6a42-zip-077a04.tar",
+                    "reference": "0279214509baf22905c99fe5528e1b74533e6a42",
+                    "shasum": "5d6ef15c781de54b921e272771d0992c486c30a6",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ergebnis/json-normalizer": "~0.10.1",
+                    "ext-json": "*",
+                    "justinrainbow/json-schema": "^4.0.0 || ^5.0.0",
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "ergebnis/php-cs-fixer-config": "~1.1.2",
+                    "ergebnis/phpstan-rules": "~0.14.2",
+                    "ergebnis/test-util": "~0.9.1",
+                    "infection/infection": "~0.13.6",
+                    "jangregor/phpstan-prophecy": "~0.5.0",
+                    "phpstan/extension-installer": "^1.0.3",
+                    "phpstan/phpstan": "~0.11.19",
+                    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                    "phpstan/phpstan-strict-rules": "~0.11.1",
+                    "phpunit/phpunit": "^7.5.18"
+                },
+                "time": "2019-12-19T17:12:18+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Composer\\Json\\Normalizer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides normalizers for normalizing composer.json.",
+                "homepage": "https://github.com/ergebnis/composer-json-normalizer",
+                "keywords": [
+                    "composer",
+                    "json",
+                    "normalizer"
+                ],
+                "abandoned": "ergebnis/json-normalizer"
+            }
+        ]
+    }
+}

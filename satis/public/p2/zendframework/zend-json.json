@@ -1,0 +1,192 @@
+{
+    "packages": {
+        "zendframework/zend-json": [
+            {
+                "name": "zendframework/zend-json",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-json.git",
+                    "reference": "27876e0516b1d68157e79e32c1dba7d23b103850"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-json/zendframework-zend-json-27876e0516b1d68157e79e32c1dba7d23b103850-zip-99e85a.tar",
+                    "reference": "27876e0516b1d68157e79e32c1dba7d23b103850",
+                    "shasum": "9749d279ad1b59085c9cf985c40991b85ea97c02",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-http": "self.version",
+                    "zendframework/zend-server": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-http": "Zend\\Http component",
+                    "zendframework/zend-server": "Zend\\Server component",
+                    "zendframework/zendxml": "To support Zend\\Json\\Json::fromXml() usage"
+                },
+                "time": "2012-10-10T15:36:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Json\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+                "homepage": "https://github.com/zendframework/zend-json",
+                "keywords": [
+                    "json",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-json"
+            },
+            {
+                "name": "zendframework/zend-json",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-json.git",
+                    "reference": "be30e255d41c555472ccc930dc49a912fb92be0e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-json/zendframework-zend-json-be30e255d41c555472ccc930dc49a912fb92be0e-zip-ad382c.tar",
+                    "reference": "be30e255d41c555472ccc930dc49a912fb92be0e",
+                    "shasum": "cecce3fbaf284fa80ff589306efd1a82732b02b5",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-http": "self.version",
+                    "zendframework/zend-server": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-http": "Zend\\Http component",
+                    "zendframework/zend-server": "Zend\\Server component",
+                    "zendframework/zendxml": "To support Zend\\Json\\Json::fromXml() usage"
+                },
+                "time": "2013-01-29T16:59:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Json\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+                "homepage": "https://github.com/zendframework/zend-json",
+                "keywords": [
+                    "json",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-json"
+            },
+            {
+                "name": "zendframework/zend-json",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-json.git",
+                    "reference": "e0a2e72459b029c3d3785fe8a0b41312670bfd24"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-json/zendframework-zend-json-e0a2e72459b029c3d3785fe8a0b41312670bfd24-zip-94c912.tar",
+                    "reference": "e0a2e72459b029c3d3785fe8a0b41312670bfd24",
+                    "shasum": "c2281887062660291e5dfc6145c3d076b4afb4bd",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-http": "self.version",
+                    "zendframework/zend-server": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-http": "Zend\\Http component",
+                    "zendframework/zend-server": "Zend\\Server component",
+                    "zendframework/zendxml": "To support Zend\\Json\\Json::fromXml() usage"
+                },
+                "time": "2014-03-06T17:27:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev",
+                        "dev-develop": "2.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Json\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+                "homepage": "https://github.com/zendframework/zend-json",
+                "keywords": [
+                    "json",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-json"
+            }
+        ]
+    }
+}

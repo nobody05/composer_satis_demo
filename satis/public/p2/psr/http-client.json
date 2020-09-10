@@ -1,0 +1,118 @@
+{
+    "packages": {
+        "psr/http-client": [
+            {
+                "name": "psr/http-client",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/http-client.git",
+                    "reference": "496a823ef742b632934724bf769560c2a5c7c44e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/psr/http-client/psr-http-client-496a823ef742b632934724bf769560c2a5c7c44e-zip-7a98fa.tar",
+                    "reference": "496a823ef742b632934724bf769560c2a5c7c44e",
+                    "shasum": "3983ff2fbc6528c786d2d8b29da02bf7b8775278",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0",
+                    "psr/http-message": "^1.0"
+                },
+                "time": "2018-10-30T23:29:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Http\\Client\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common interface for HTTP clients",
+                "homepage": "https://github.com/php-fig/http-client",
+                "keywords": [
+                    "http",
+                    "http-client",
+                    "psr",
+                    "psr-18"
+                ]
+            },
+            {
+                "name": "psr/http-client",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/http-client.git",
+                    "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/psr/http-client/psr-http-client-2dfb5f6c5eff0e91e20e913f8c5452ed95b86621-zip-372a80.tar",
+                    "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                    "shasum": "ba5ee4373c988123137f8584623391db55fe075f",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0 || ^8.0",
+                    "psr/http-message": "^1.0"
+                },
+                "time": "2020-06-29T06:28:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Http\\Client\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common interface for HTTP clients",
+                "homepage": "https://github.com/php-fig/http-client",
+                "keywords": [
+                    "http",
+                    "http-client",
+                    "psr",
+                    "psr-18"
+                ]
+            }
+        ]
+    }
+}

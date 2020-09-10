@@ -1,0 +1,78 @@
+{
+    "packages": {
+        "php-http/client-integration-tests": [
+            {
+                "name": "php-http/client-integration-tests",
+                "version": "dev-phpunit8",
+                "version_normalized": "dev-phpunit8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-http/client-integration-tests.git",
+                    "reference": "6d527ff64296c3e30eb654c7dffb1bba3cbb899d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/php-http/client-integration-tests/zipball/6d527ff64296c3e30eb654c7dffb1bba3cbb899d",
+                    "reference": "6d527ff64296c3e30eb654c7dffb1bba3cbb899d",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "guzzlehttp/psr7": "^1.0",
+                    "php": "^7.1",
+                    "php-http/message": "^1.0",
+                    "phpunit/phpunit": "^7.0 || ^8.0",
+                    "th3n3rd/cartesian-product": "^0.3"
+                },
+                "require-dev": {
+                    "php-http/httplug": "^2.0"
+                },
+                "suggest": {
+                    "php-http/httplug": "To test async client"
+                },
+                "time": "2019-12-18T16:41:01+00:00",
+                "bin": [
+                    "bin/http_test_server"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Http\\Client\\Tests\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Eric GELOEN",
+                        "email": "geloen.eric@gmail.com"
+                    },
+                    {
+                        "name": "Márk Sági-Kazár",
+                        "email": "mark.sagikazar@gmail.com"
+                    }
+                ],
+                "description": "HTTP Client integration tests",
+                "homepage": "http://httplug.io",
+                "keywords": [
+                    "client",
+                    "http",
+                    "integration",
+                    "tests"
+                ]
+            }
+        ]
+    }
+}

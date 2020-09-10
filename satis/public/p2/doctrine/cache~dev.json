@@ -1,0 +1,198 @@
+{
+    "packages": {
+        "doctrine/cache": [
+            {
+                "name": "doctrine/cache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/cache.git",
+                    "reference": "c35394695e6878de0188fae71cbc135e29c13d1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/doctrine/cache/zipball/c35394695e6878de0188fae71cbc135e29c13d1a",
+                    "reference": "c35394695e6878de0188fae71cbc135e29c13d1a",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "~7.1 || ^8.0"
+                },
+                "conflict": {
+                    "doctrine/common": ">2.2,<2.4"
+                },
+                "require-dev": {
+                    "alcaeus/mongo-php-adapter": "^1.1",
+                    "doctrine/coding-standard": "^6.0",
+                    "mongodb/mongodb": "^1.1",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "~1.0"
+                },
+                "suggest": {
+                    "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
+                },
+                "time": "2020-07-07T19:04:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
+                "homepage": "https://www.doctrine-project.org/projects/cache.html",
+                "keywords": [
+                    "abstraction",
+                    "apcu",
+                    "cache",
+                    "caching",
+                    "couchdb",
+                    "memcached",
+                    "php",
+                    "redis",
+                    "xcache"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.doctrine-project.org/sponsorship.html",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://www.patreon.com/phpdoctrine",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcache",
+                        "type": "tidelift"
+                    }
+                ]
+            },
+            {
+                "name": "doctrine/cache",
+                "version": "dev-dependencies/doctrine-cs-7",
+                "version_normalized": "dev-dependencies/doctrine-cs-7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/cache.git",
+                    "reference": "975b3f23d436c325516eee8153bd6ef58c535929"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/doctrine/cache/zipball/975b3f23d436c325516eee8153bd6ef58c535929",
+                    "reference": "975b3f23d436c325516eee8153bd6ef58c535929",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "~7.1"
+                },
+                "conflict": {
+                    "doctrine/common": ">2.2,<2.4"
+                },
+                "require-dev": {
+                    "alcaeus/mongo-php-adapter": "^1.1",
+                    "doctrine/coding-standard": "^7.0.2",
+                    "mongodb/mongodb": "^1.1",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "~1.0"
+                },
+                "suggest": {
+                    "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
+                },
+                "time": "2020-02-06T20:00:06+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
+                "homepage": "https://www.doctrine-project.org/projects/cache.html",
+                "keywords": [
+                    "abstraction",
+                    "apcu",
+                    "cache",
+                    "caching",
+                    "couchdb",
+                    "memcached",
+                    "php",
+                    "redis",
+                    "xcache"
+                ]
+            }
+        ]
+    }
+}

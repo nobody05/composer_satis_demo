@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "th3n3rd/cartesian-product": [
+            {
+                "name": "th3n3rd/cartesian-product",
+                "version": "v0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/th3n3rd/cartesian-product.git",
+                    "reference": "78b22f4feb4ef3efc1e99dfe5d932e17024b035d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/th3n3rd/cartesian-product/th3n3rd-cartesian-product-78b22f4feb4ef3efc1e99dfe5d932e17024b035d-zip-5abc3f.tar",
+                    "reference": "78b22f4feb4ef3efc1e99dfe5d932e17024b035d",
+                    "shasum": "3dbcf07f3dba5684e0a5e3235379d81a17268221",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "devster/ubench": "~1.1",
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2015-05-30T08:42:25+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Nerd\\CartesianProduct\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Marco Garofalo",
+                        "email": "marcogarofalo.personal@gmail.com"
+                    }
+                ],
+                "description": "Memory efficient Cartesian Product implementation",
+                "keywords": [
+                    "cartesian",
+                    "product"
+                ]
+            }
+        ]
+    }
+}

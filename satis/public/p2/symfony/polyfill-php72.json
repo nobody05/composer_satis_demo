@@ -1,0 +1,210 @@
+{
+    "packages": {
+        "symfony/polyfill-php72": [
+            {
+                "name": "symfony/polyfill-php72",
+                "version": "v1.10.0",
+                "version_normalized": "1.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php72.git",
+                    "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-php72/symfony-polyfill-php72-9050816e2ca34a8e916c3a0ae8b9c2fccf68b631-zip-ea49c7.tar",
+                    "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
+                    "shasum": "49351f93a3563b1c67b85c6131d9fc6cf9deb2dd",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2018-09-21T13:07:52+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php72\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ]
+            },
+            {
+                "name": "symfony/polyfill-php72",
+                "version": "v1.18.1",
+                "version_normalized": "1.18.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php72.git",
+                    "reference": "639447d008615574653fb3bc60d1986d7172eaae"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-php72/symfony-polyfill-php72-639447d008615574653fb3bc60d1986d7172eaae-zip-0e4b47.tar",
+                    "reference": "639447d008615574653fb3bc60d1986d7172eaae",
+                    "shasum": "e8507d9bd5c9ae684df085aee352eb60cd9bbc2c",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2020-07-14T12:35:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.18-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/polyfill",
+                        "url": "https://github.com/symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php72\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ]
+            },
+            {
+                "name": "symfony/polyfill-php72",
+                "version": "v1.9.0",
+                "version_normalized": "1.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php72.git",
+                    "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/symfony/polyfill-php72/symfony-polyfill-php72-95c50420b0baed23852452a7f0c7b527303ed5ae-zip-f32119.tar",
+                    "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae",
+                    "shasum": "ac1b592178b6b9c93e112a0c88178f68fd47642c",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2018-08-06T14:22:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php72\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ]
+            }
+        ]
+    }
+}

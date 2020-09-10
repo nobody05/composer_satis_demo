@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "sebastian/object-reflector": [
+            {
+                "name": "sebastian/object-reflector",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/object-reflector.git",
+                    "reference": "773f97c67f28de00d397be301821b06708fca0be"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/object-reflector/sebastian-object-reflector-773f97c67f28de00d397be301821b06708fca0be-zip-56c4ab.tar",
+                    "reference": "773f97c67f28de00d397be301821b06708fca0be",
+                    "shasum": "d15a931d94aa4851b6a75dda205bce214e465c1a",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.0"
+                },
+                "time": "2017-03-29T09:07:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Allows reflection of object attributes, including inherited and non-public ones",
+                "homepage": "https://github.com/sebastianbergmann/object-reflector/"
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "sebastian/version": [
+            {
+                "name": "sebastian/version",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/version.git",
+                    "reference": "c56083d3d8b0994a9211898caf489770a849386c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/c56083d3d8b0994a9211898caf489770a849386c",
+                    "reference": "c56083d3d8b0994a9211898caf489770a849386c",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "time": "2020-09-08T10:37:06+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+                "homepage": "https://github.com/sebastianbergmann/version",
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

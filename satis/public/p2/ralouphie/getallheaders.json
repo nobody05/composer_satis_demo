@@ -1,0 +1,100 @@
+{
+    "packages": {
+        "ralouphie/getallheaders": [
+            {
+                "name": "ralouphie/getallheaders",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ralouphie/getallheaders.git",
+                    "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ralouphie/getallheaders/ralouphie-getallheaders-5601c8a83fbba7ef674a7369456d12f1e0d0eafa-zip-8da20c.tar",
+                    "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                    "shasum": "dd5ca1b9ae4791f1ab2de8a928411864e6f64820",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0",
+                    "satooshi/php-coveralls": ">=1.0"
+                },
+                "time": "2016-02-11T07:05:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/getallheaders.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralph Khattar",
+                        "email": "ralph.khattar@gmail.com"
+                    }
+                ],
+                "description": "A polyfill for getallheaders."
+            },
+            {
+                "name": "ralouphie/getallheaders",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ralouphie/getallheaders.git",
+                    "reference": "120b605dfeb996808c31b6477290a714d356e822"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ralouphie/getallheaders/ralouphie-getallheaders-120b605dfeb996808c31b6477290a714d356e822-zip-821645.tar",
+                    "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                    "shasum": "bae7f3ebcb684ceb2a686a2415d103d80aa5decb",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "php-coveralls/php-coveralls": "^2.1",
+                    "phpunit/phpunit": "^5 || ^6.5"
+                },
+                "time": "2019-03-08T08:55:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/getallheaders.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralph Khattar",
+                        "email": "ralph.khattar@gmail.com"
+                    }
+                ],
+                "description": "A polyfill for getallheaders."
+            }
+        ]
+    }
+}

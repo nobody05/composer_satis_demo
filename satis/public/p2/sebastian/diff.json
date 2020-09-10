@@ -1,0 +1,498 @@
+{
+    "packages": {
+        "sebastian/diff": [
+            {
+                "name": "sebastian/diff",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "1e091702a5a38e6b4c1ba9ca816e3dd343df2e2d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-1e091702a5a38e6b4c1ba9ca816e3dd343df2e2d-zip-8b3302.tar",
+                    "reference": "1e091702a5a38e6b4c1ba9ca816e3dd343df2e2d",
+                    "shasum": "b1e8c39fde17a79163c8c5dac1e91ffa1a54cc6e",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-08-03T16:46:33+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "http://www.github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "5843509fed39dee4b356a306401e9dd1a931fec7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-5843509fed39dee4b356a306401e9dd1a931fec7-zip-8a1f8b.tar",
+                    "reference": "5843509fed39dee4b356a306401e9dd1a931fec7",
+                    "shasum": "88ee923eee9612f8e296c341e328cfb76b3b10f8",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.2"
+                },
+                "time": "2014-08-15T10:29:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "http://www.github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-7f066a26a962dbe58ddea9f72a4e82874a3975a4-zip-92da4d.tar",
+                    "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                    "shasum": "68dcc581fb4cc7eb64647f377b4de1cc9148bbb6",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^5.3.3 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+                },
+                "time": "2017-05-22T07:24:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.4-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "347c1d8b49c5c3ee30c7040ea6fc446790e6bddd"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-347c1d8b49c5c3ee30c7040ea6fc446790e6bddd-zip-599411.tar",
+                    "reference": "347c1d8b49c5c3ee30c7040ea6fc446790e6bddd",
+                    "shasum": "d300217e86d55648c3bab2389b21a04e00d82292",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-08-03T08:09:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "e09160918c66281713f1c324c1f4c4c3037ba1e8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-e09160918c66281713f1c324c1f4c4c3037ba1e8-zip-59042c.tar",
+                    "reference": "e09160918c66281713f1c324c1f4c4c3037ba1e8",
+                    "shasum": "8aeb2bf0c72d39dbf34980660cd4fe5beadcffc5",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.0",
+                    "symfony/process": "^2 || ^3.3 || ^4"
+                },
+                "time": "2018-02-01T13:45:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-720fcc7e9b5cf384ea68d9d930d480907a0c1a29-zip-e6ed91.tar",
+                    "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29",
+                    "shasum": "09255f65a7af47cada2b324fe3577981253fc887",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5 || ^8.0",
+                    "symfony/process": "^2 || ^3.3 || ^4"
+                },
+                "time": "2019-02-04T06:01:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "c0c26c9188b538bfa985ae10c9f05d278f12060d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-c0c26c9188b538bfa985ae10c9f05d278f12060d-zip-d39c8f.tar",
+                    "reference": "c0c26c9188b538bfa985ae10c9f05d278f12060d",
+                    "shasum": "22dca7907d52ad336fb758e454097d43475d1fdd",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/process": "^4 || ^5"
+                },
+                "time": "2020-02-07T06:09:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ]
+            },
+            {
+                "name": "sebastian/diff",
+                "version": "4.0.2",
+                "version_normalized": "4.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/diff.git",
+                    "reference": "1e90b4cf905a7d06c420b1d2e9d11a4dc8a13113"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/diff/sebastian-diff-1e90b4cf905a7d06c420b1d2e9d11a4dc8a13113-zip-beb1d3.tar",
+                    "reference": "1e90b4cf905a7d06c420b1d2e9d11a4dc8a13113",
+                    "shasum": "d9d144d738d5b3b107bc4f934be074a813d97755",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.3 || ^8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/process": "^4.2 || ^5"
+                },
+                "time": "2020-06-30T04:46:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Kore Nordmann",
+                        "email": "mail@kore-nordmann.de"
+                    }
+                ],
+                "description": "Diff implementation",
+                "homepage": "https://github.com/sebastianbergmann/diff",
+                "keywords": [
+                    "diff",
+                    "udiff",
+                    "unidiff",
+                    "unified diff"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

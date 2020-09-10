@@ -1,0 +1,67 @@
+{
+    "packages": {
+        "myclabs/deep-copy": [
+            {
+                "name": "myclabs/deep-copy",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/myclabs/DeepCopy.git",
+                    "reference": "a3409d10079990eeb489c3fead0ac070b5b38895"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/a3409d10079990eeb489c3fead0ac070b5b38895",
+                    "reference": "a3409d10079990eeb489c3fead0ac070b5b38895",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "replace": {
+                    "myclabs/deep-copy": "self.version"
+                },
+                "require-dev": {
+                    "doctrine/collections": "^1.0",
+                    "doctrine/common": "^2.6",
+                    "phpunit/phpunit": "^7.1"
+                },
+                "time": "2020-08-28T16:31:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DeepCopy\\": "src/DeepCopy/"
+                    },
+                    "files": [
+                        "src/DeepCopy/deep_copy.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "Create deep copies (clones) of your objects",
+                "keywords": [
+                    "clone",
+                    "copy",
+                    "duplicate",
+                    "object",
+                    "object graph"
+                ],
+                "funding": [
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                        "type": "tidelift"
+                    }
+                ]
+            }
+        ]
+    }
+}

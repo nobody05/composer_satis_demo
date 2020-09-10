@@ -1,0 +1,153 @@
+{
+    "packages": {
+        "theseer/tokenizer": [
+            {
+                "name": "theseer/tokenizer",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/theseer/tokenizer.git",
+                    "reference": "cb2f008f3f05af2893a87208fe6a6c4985483f8b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/theseer/tokenizer/theseer-tokenizer-cb2f008f3f05af2893a87208fe6a6c4985483f8b-zip-1b9019.tar",
+                    "reference": "cb2f008f3f05af2893a87208fe6a6c4985483f8b",
+                    "shasum": "623b0413cf26f853119c5c19ceafcddbfac677a0",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-tokenizer": "*",
+                    "ext-xmlwriter": "*",
+                    "php": "^7.0"
+                },
+                "time": "2017-04-07T12:08:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A small library for converting tokenized PHP source code into XML and potentially other formats"
+            },
+            {
+                "name": "theseer/tokenizer",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/theseer/tokenizer.git",
+                    "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/theseer/tokenizer/theseer-tokenizer-11336f6f84e16a720dae9d8e6ed5019efa85a0f9-zip-030d6e.tar",
+                    "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9",
+                    "shasum": "72fe3f81fb7a4bd717d1d3ad68bf4e03ea26b260",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-tokenizer": "*",
+                    "ext-xmlwriter": "*",
+                    "php": "^7.0"
+                },
+                "time": "2019-06-13T22:48:21+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A small library for converting tokenized PHP source code into XML and potentially other formats"
+            },
+            {
+                "name": "theseer/tokenizer",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/theseer/tokenizer.git",
+                    "reference": "75a63c33a8577608444246075ea0af0d052e452a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/theseer/tokenizer/theseer-tokenizer-75a63c33a8577608444246075ea0af0d052e452a-zip-4eecac.tar",
+                    "reference": "75a63c33a8577608444246075ea0af0d052e452a",
+                    "shasum": "8d66459c6ea24d1b9bfdc3a1b539db6f4e705e1a",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-tokenizer": "*",
+                    "ext-xmlwriter": "*",
+                    "php": "^7.2 || ^8.0"
+                },
+                "time": "2020-07-12T23:59:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Arne Blankerts",
+                        "email": "arne@blankerts.de",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+                "funding": [
+                    {
+                        "url": "https://github.com/theseer",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

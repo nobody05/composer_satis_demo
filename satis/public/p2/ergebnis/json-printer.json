@@ -1,0 +1,292 @@
+{
+    "packages": {
+        "ergebnis/json-printer": [
+            {
+                "name": "ergebnis/json-printer",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/json-printer.git",
+                    "reference": "182fe2f4223e40ba4f1ca2ccdb35e2dd8c1e0878"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/json-printer/ergebnis-json-printer-182fe2f4223e40ba4f1ca2ccdb35e2dd8c1e0878-zip-c238ce.tar",
+                    "reference": "182fe2f4223e40ba4f1ca2ccdb35e2dd8c1e0878",
+                    "shasum": "f45a804d435400a8f1fbb46942218fe8089c2c04",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "ergebnis/php-cs-fixer-config": "~1.1.0",
+                    "ergebnis/phpstan-rules": "~0.14.0",
+                    "ergebnis/test-util": "~0.9.0",
+                    "infection/infection": "~0.13.6",
+                    "phpbench/phpbench": "~0.16.10",
+                    "phpstan/extension-installer": "^1.0.3",
+                    "phpstan/phpstan": "~0.11.19",
+                    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                    "phpstan/phpstan-strict-rules": "~0.11.1",
+                    "phpunit/phpunit": "^8.5.0"
+                },
+                "time": "2019-12-15T09:53:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Json\\Printer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a JSON printer, allowing for flexible indentation.",
+                "homepage": "https://github.com/ergebnis/json-printer",
+                "keywords": [
+                    "formatter",
+                    "json",
+                    "printer"
+                ]
+            },
+            {
+                "name": "ergebnis/json-printer",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/json-printer.git",
+                    "reference": "c7985dc4879777f2e4ab689da25bdd49f59dd2cb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/json-printer/ergebnis-json-printer-c7985dc4879777f2e4ab689da25bdd49f59dd2cb-zip-7d8978.tar",
+                    "reference": "c7985dc4879777f2e4ab689da25bdd49f59dd2cb",
+                    "shasum": "63fad87956a699c429d61c1b5d9ea4c6f286b968",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "ergebnis/php-cs-fixer-config": "~1.1.1",
+                    "ergebnis/phpstan-rules": "~0.14.1",
+                    "ergebnis/test-util": "~0.9.0",
+                    "infection/infection": "~0.13.6",
+                    "phpbench/phpbench": "~0.16.10",
+                    "phpstan/extension-installer": "^1.0.3",
+                    "phpstan/phpstan": "~0.11.19",
+                    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                    "phpstan/phpstan-strict-rules": "~0.11.1",
+                    "phpunit/phpunit": "^7.5.18"
+                },
+                "time": "2019-12-19T14:42:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Json\\Printer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a JSON printer, allowing for flexible indentation.",
+                "homepage": "https://github.com/ergebnis/json-printer",
+                "keywords": [
+                    "formatter",
+                    "json",
+                    "printer"
+                ]
+            },
+            {
+                "name": "ergebnis/json-printer",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/json-printer.git",
+                    "reference": "776a5c85ce3c67d97c6af08a67c917adbdb4758e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/json-printer/ergebnis-json-printer-776a5c85ce3c67d97c6af08a67c917adbdb4758e-zip-9829c1.tar",
+                    "reference": "776a5c85ce3c67d97c6af08a67c917adbdb4758e",
+                    "shasum": "5035661f1face45e03baa4eb81ed8772d051581b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^7.1 || ^8.0"
+                },
+                "require-dev": {
+                    "ergebnis/license": "~1.0.0",
+                    "ergebnis/php-cs-fixer-config": "^2.2.1",
+                    "ergebnis/phpstan-rules": "~0.15.0",
+                    "ergebnis/test-util": "~1.0.0",
+                    "infection/infection": "~0.13.6",
+                    "phpstan/extension-installer": "^1.0.4",
+                    "phpstan/phpstan": "~0.12.32",
+                    "phpstan/phpstan-deprecation-rules": "~0.12.4",
+                    "phpstan/phpstan-phpunit": "~0.12.11",
+                    "phpstan/phpstan-strict-rules": "~0.12.2",
+                    "phpunit/phpunit": "^7.5.20",
+                    "psalm/plugin-phpunit": "~0.10.1",
+                    "vimeo/psalm": "^3.12.2"
+                },
+                "time": "2020-07-04T17:09:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Json\\Printer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a JSON printer, allowing for flexible indentation.",
+                "homepage": "https://github.com/ergebnis/json-printer",
+                "keywords": [
+                    "formatter",
+                    "json",
+                    "printer"
+                ],
+                "funding": [
+                    {
+                        "url": "https://cottonbureau.com/people/andreas-moller",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://paypal.me/localheinz",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://www.amazon.de/hz/wishlist/ls/2NCHMSJ4BC1OW",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://www.buymeacoffee.com/localheinz",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/localheinz",
+                        "type": "github"
+                    }
+                ]
+            },
+            {
+                "name": "ergebnis/json-printer",
+                "version": "3.1.1",
+                "version_normalized": "3.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ergebnis/json-printer.git",
+                    "reference": "e4190dadd9937a77d8afcaf2b6c42a528ab367d6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/ergebnis/json-printer/ergebnis-json-printer-e4190dadd9937a77d8afcaf2b6c42a528ab367d6-zip-da19f2.tar",
+                    "reference": "e4190dadd9937a77d8afcaf2b6c42a528ab367d6",
+                    "shasum": "94cdf41f0d7d2b2296d605977b2ecd5a6d369c25",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^7.2 || ^8.0"
+                },
+                "require-dev": {
+                    "ergebnis/license": "^1.0.0",
+                    "ergebnis/php-cs-fixer-config": "^2.2.1",
+                    "ergebnis/phpstan-rules": "~0.15.2",
+                    "ergebnis/test-util": "^1.1.0",
+                    "infection/infection": "~0.15.3",
+                    "phpstan/extension-installer": "^1.0.4",
+                    "phpstan/phpstan": "~0.12.40",
+                    "phpstan/phpstan-deprecation-rules": "~0.12.5",
+                    "phpstan/phpstan-phpunit": "~0.12.16",
+                    "phpstan/phpstan-strict-rules": "~0.12.4",
+                    "phpunit/phpunit": "^8.5.8",
+                    "psalm/plugin-phpunit": "~0.11.0",
+                    "vimeo/psalm": "^3.14.2"
+                },
+                "time": "2020-08-30T12:17:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ergebnis\\Json\\Printer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Möller",
+                        "email": "am@localheinz.com"
+                    }
+                ],
+                "description": "Provides a JSON printer, allowing for flexible indentation.",
+                "homepage": "https://github.com/ergebnis/json-printer",
+                "keywords": [
+                    "formatter",
+                    "json",
+                    "printer"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/localheinz",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

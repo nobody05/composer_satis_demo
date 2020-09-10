@@ -1,0 +1,450 @@
+{
+    "packages": {
+        "guzzlehttp/guzzle": [
+            {
+                "name": "guzzlehttp/guzzle",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/guzzle.git",
+                    "reference": "68bf75e8dabcebd21e0333719e8f15228ed59d1e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/guzzle/guzzle/zipball/68bf75e8dabcebd21e0333719e8f15228ed59d1e",
+                    "reference": "68bf75e8dabcebd21e0333719e8f15228ed59d1e",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/streams": "~2.1",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "ext-curl": "*",
+                    "phpunit/phpunit": "~4.0",
+                    "psr/log": "~1.0"
+                },
+                "suggest": {
+                    "ext-curl": "Guzzle will use specific adapters if cURL is present"
+                },
+                "time": "2017-02-23T20:35:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.2-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    }
+                ],
+                "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+                "homepage": "http://guzzlephp.org/",
+                "keywords": [
+                    "client",
+                    "curl",
+                    "framework",
+                    "http",
+                    "http client",
+                    "rest",
+                    "web service"
+                ]
+            },
+            {
+                "name": "guzzlehttp/guzzle",
+                "version": "5.3.x-dev",
+                "version_normalized": "5.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/guzzle.git",
+                    "reference": "d59d5293b4a804d6436d64fec71a8c75110a3165"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d59d5293b4a804d6436d64fec71a8c75110a3165",
+                    "reference": "d59d5293b4a804d6436d64fec71a8c75110a3165",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "guzzlehttp/ringphp": "^1.1",
+                    "php": ">=5.4.0",
+                    "react/promise": "^2.2"
+                },
+                "require-dev": {
+                    "ext-curl": "*",
+                    "phpunit/phpunit": "^4.0"
+                },
+                "time": "2020-02-18T09:14:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    }
+                ],
+                "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+                "homepage": "http://guzzlephp.org/",
+                "keywords": [
+                    "client",
+                    "curl",
+                    "framework",
+                    "http",
+                    "http client",
+                    "rest",
+                    "web service"
+                ]
+            },
+            {
+                "name": "guzzlehttp/guzzle",
+                "version": "6.5.x-dev",
+                "version_normalized": "6.5.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/guzzle.git",
+                    "reference": "e8ed4dbf49b260ff129ff0e0400718c3269971bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e8ed4dbf49b260ff129ff0e0400718c3269971bf",
+                    "reference": "e8ed4dbf49b260ff129ff0e0400718c3269971bf",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/promises": "^1.0",
+                    "guzzlehttp/psr7": "^1.6.1",
+                    "php": ">=5.5",
+                    "symfony/polyfill-intl-idn": "^1.17.0"
+                },
+                "require-dev": {
+                    "ext-curl": "*",
+                    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                    "psr/log": "^1.1"
+                },
+                "suggest": {
+                    "psr/log": "Required for using the Log middleware"
+                },
+                "time": "2020-07-02T06:52:04+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "6.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\": "src/"
+                    },
+                    "files": [
+                        "src/functions_include.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    }
+                ],
+                "description": "Guzzle is a PHP HTTP client library",
+                "homepage": "http://guzzlephp.org/",
+                "keywords": [
+                    "client",
+                    "curl",
+                    "framework",
+                    "http",
+                    "http client",
+                    "rest",
+                    "web service"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/Nyholm",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/alexeyshockov",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/gmponos",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/sagikazarmark",
+                        "type": "github"
+                    }
+                ]
+            },
+            {
+                "name": "guzzlehttp/guzzle",
+                "version": "7.0.x-dev",
+                "version_normalized": "7.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/guzzle.git",
+                    "reference": "dc87640a8669b278af07f8af6d6147a0b148929c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dc87640a8669b278af07f8af6d6147a0b148929c",
+                    "reference": "dc87640a8669b278af07f8af6d6147a0b148929c",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/promises": "^1.0",
+                    "guzzlehttp/psr7": "^1.6.1",
+                    "php": "^7.2.5",
+                    "psr/http-client": "^1.0"
+                },
+                "provide": {
+                    "psr/http-client-implementation": "1.0"
+                },
+                "require-dev": {
+                    "ergebnis/composer-normalize": "^2.0",
+                    "ext-curl": "*",
+                    "php-http/client-integration-tests": "dev-phpunit8",
+                    "phpunit/phpunit": "^8.5.5",
+                    "psr/log": "^1.1"
+                },
+                "suggest": {
+                    "ext-curl": "Required for CURL handler support",
+                    "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                    "psr/log": "Required for using the Log middleware"
+                },
+                "time": "2020-07-23T05:25:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\": "src/"
+                    },
+                    "files": [
+                        "src/functions_include.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    },
+                    {
+                        "name": "Márk Sági-Kazár",
+                        "email": "mark.sagikazar@gmail.com",
+                        "homepage": "https://sagikazarmark.hu"
+                    }
+                ],
+                "description": "Guzzle is a PHP HTTP client library",
+                "homepage": "http://guzzlephp.org/",
+                "keywords": [
+                    "client",
+                    "curl",
+                    "framework",
+                    "http",
+                    "http client",
+                    "psr-18",
+                    "psr-7",
+                    "rest",
+                    "web service"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/Nyholm",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/alexeyshockov",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/gmponos",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/sagikazarmark",
+                        "type": "github"
+                    }
+                ]
+            },
+            {
+                "name": "guzzlehttp/guzzle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/guzzle.git",
+                    "reference": "33ddb580d0d88242fa9d597b4715f5f89c5e56a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/guzzle/guzzle/zipball/33ddb580d0d88242fa9d597b4715f5f89c5e56a1",
+                    "reference": "33ddb580d0d88242fa9d597b4715f5f89c5e56a1",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/promises": "^1.0",
+                    "guzzlehttp/psr7": "^1.6.1",
+                    "php": "^7.2.5",
+                    "psr/http-client": "^1.0"
+                },
+                "provide": {
+                    "psr/http-client-implementation": "1.0"
+                },
+                "require-dev": {
+                    "ergebnis/composer-normalize": "^2.0",
+                    "ext-curl": "*",
+                    "php-http/client-integration-tests": "dev-phpunit8",
+                    "phpunit/phpunit": "^8.5.5",
+                    "psr/log": "^1.1"
+                },
+                "suggest": {
+                    "ext-curl": "Required for CURL handler support",
+                    "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                    "psr/log": "Required for using the Log middleware"
+                },
+                "time": "2020-08-13T19:25:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\": "src/"
+                    },
+                    "files": [
+                        "src/functions_include.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    },
+                    {
+                        "name": "Márk Sági-Kazár",
+                        "email": "mark.sagikazar@gmail.com",
+                        "homepage": "https://sagikazarmark.hu"
+                    }
+                ],
+                "description": "Guzzle is a PHP HTTP client library",
+                "homepage": "http://guzzlephp.org/",
+                "keywords": [
+                    "client",
+                    "curl",
+                    "framework",
+                    "http",
+                    "http client",
+                    "psr-18",
+                    "psr-7",
+                    "rest",
+                    "web service"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/Nyholm",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/alexeyshockov",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/gmponos",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

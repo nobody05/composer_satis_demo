@@ -1,0 +1,1052 @@
+{
+    "packages": {
+        "phpunit/phpunit": [
+            {
+                "name": "phpunit/phpunit",
+                "version": "3.7.0",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "f6a4872c01bab898bce4f9e211e437533f248d43"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-f6a4872c01bab898bce4f9e211e437533f248d43-zip-9f0f06.tar",
+                    "reference": "f6a4872c01bab898bce4f9e211e437533f248d43",
+                    "shasum": "fab1925052f9e60255ccbd570cd45aa1c12ce6d3",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpunit/php-code-coverage": ">=1.2.0@stable",
+                    "phpunit/php-file-iterator": ">=1.3.1@stable",
+                    "phpunit/php-text-template": ">=1.1.1@stable",
+                    "phpunit/php-timer": ">=1.0.2@stable",
+                    "phpunit/phpunit-mock-objects": ">=1.2.0@stable",
+                    "symfony/yaml": ">=2.1.0@stable"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "ext-tokenizer": "*",
+                    "phpunit/php-invoker": ">=1.1.0@stable"
+                },
+                "time": "2012-09-19T05:07:48+00:00",
+                "bin": [
+                    "composer/bin/phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.7.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "PHPUnit/Autoload.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "",
+                    "../../symfony/yaml/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "3.7.38",
+                "version_normalized": "3.7.38.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-38709dc22d519a3d1be46849868aa2ddf822bcf6-zip-c37939.tar",
+                    "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
+                    "shasum": "5fcff23ff49b1c905a7892fdf6a5aae205542b90",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpunit/php-code-coverage": "~1.2",
+                    "phpunit/php-file-iterator": "~1.3",
+                    "phpunit/php-text-template": "~1.1",
+                    "phpunit/php-timer": "~1.0",
+                    "phpunit/phpunit-mock-objects": "~1.2",
+                    "symfony/yaml": "~2.0"
+                },
+                "require-dev": {
+                    "pear-pear.php.net/pear": "1.9.4"
+                },
+                "suggest": {
+                    "phpunit/php-invoker": "~1.1"
+                },
+                "time": "2014-10-17T09:04:17+00:00",
+                "bin": [
+                    "composer/bin/phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.7.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "PHPUnit/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "",
+                    "../../symfony/yaml/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "b3a7c58bc39f01577f89d63da1ec578e1e993f1a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-b3a7c58bc39f01577f89d63da1ec578e1e993f1a-zip-12a0d6.tar",
+                    "reference": "b3a7c58bc39f01577f89d63da1ec578e1e993f1a",
+                    "shasum": "bda3c64ec38454fb4de639f7b16b118ea97b6b00",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpunit/php-code-coverage": ">=2.0.0,<2.1.0",
+                    "phpunit/php-file-iterator": "~1.3.1",
+                    "phpunit/php-text-template": "~1.2",
+                    "phpunit/php-timer": "~1.0.2",
+                    "phpunit/phpunit-mock-objects": ">=2.0.0,<2.1.0",
+                    "sebastian/diff": "~1.1",
+                    "sebastian/environment": "~1.0",
+                    "sebastian/exporter": "~1.0.1",
+                    "sebastian/version": "~1.0",
+                    "symfony/yaml": "~2.0"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "ext-tokenizer": "*",
+                    "phpunit/php-invoker": "~1.1"
+                },
+                "time": "2014-03-07T07:00:44+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "",
+                    "../../symfony/yaml/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "4.8.35",
+                "version_normalized": "4.8.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "791b1a67c25af50e230f841ee7a9c6eba507dc87"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-791b1a67c25af50e230f841ee7a9c6eba507dc87-zip-2adda6.tar",
+                    "reference": "791b1a67c25af50e230f841ee7a9c6eba507dc87",
+                    "shasum": "b536c3eb865d61b5aeba388c6141df53167d1f43",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpspec/prophecy": "^1.3.1",
+                    "phpunit/php-code-coverage": "~2.1",
+                    "phpunit/php-file-iterator": "~1.4",
+                    "phpunit/php-text-template": "~1.2",
+                    "phpunit/php-timer": "^1.0.6",
+                    "phpunit/phpunit-mock-objects": "~2.3",
+                    "sebastian/comparator": "~1.2.2",
+                    "sebastian/diff": "~1.2",
+                    "sebastian/environment": "~1.3",
+                    "sebastian/exporter": "~1.2",
+                    "sebastian/global-state": "~1.0",
+                    "sebastian/version": "~1.0",
+                    "symfony/yaml": "~2.1|~3.0"
+                },
+                "suggest": {
+                    "phpunit/php-invoker": "~1.1"
+                },
+                "time": "2017-02-06T05:18:07+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.8.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "4.8.36",
+                "version_normalized": "4.8.36.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "46023de9a91eec7dfb06cc56cb4e260017298517"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-46023de9a91eec7dfb06cc56cb4e260017298517-zip-b32699.tar",
+                    "reference": "46023de9a91eec7dfb06cc56cb4e260017298517",
+                    "shasum": "7288571b1f9b69a91a4c82e25b23958801984ecc",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpspec/prophecy": "^1.3.1",
+                    "phpunit/php-code-coverage": "~2.1",
+                    "phpunit/php-file-iterator": "~1.4",
+                    "phpunit/php-text-template": "~1.2",
+                    "phpunit/php-timer": "^1.0.6",
+                    "phpunit/phpunit-mock-objects": "~2.3",
+                    "sebastian/comparator": "~1.2.2",
+                    "sebastian/diff": "~1.2",
+                    "sebastian/environment": "~1.3",
+                    "sebastian/exporter": "~1.2",
+                    "sebastian/global-state": "~1.0",
+                    "sebastian/version": "~1.0",
+                    "symfony/yaml": "~2.1|~3.0"
+                },
+                "suggest": {
+                    "phpunit/php-invoker": "~1.1"
+                },
+                "time": "2017-06-21T08:07:12+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.8.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "5.7.27",
+                "version_normalized": "5.7.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c-zip-802b3e.tar",
+                    "reference": "b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c",
+                    "shasum": "6fa7f3fb15abc19518d75d5d818e5c4ff9feea0f",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "myclabs/deep-copy": "~1.3",
+                    "php": "^5.6 || ^7.0",
+                    "phpspec/prophecy": "^1.6.2",
+                    "phpunit/php-code-coverage": "^4.0.4",
+                    "phpunit/php-file-iterator": "~1.4",
+                    "phpunit/php-text-template": "~1.2",
+                    "phpunit/php-timer": "^1.0.6",
+                    "phpunit/phpunit-mock-objects": "^3.2",
+                    "sebastian/comparator": "^1.2.4",
+                    "sebastian/diff": "^1.4.3",
+                    "sebastian/environment": "^1.3.4 || ^2.0",
+                    "sebastian/exporter": "~2.0",
+                    "sebastian/global-state": "^1.1",
+                    "sebastian/object-enumerator": "~2.0",
+                    "sebastian/resource-operations": "~1.0",
+                    "sebastian/version": "^1.0.6|^2.0.1",
+                    "symfony/yaml": "~2.1|~3.0|~4.0"
+                },
+                "conflict": {
+                    "phpdocumentor/reflection-docblock": "3.0.2"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "~1.1"
+                },
+                "time": "2018-02-01T05:50:59+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.7.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "6.5.14",
+                "version_normalized": "6.5.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "bac23fe7ff13dbdb461481f706f0e9fe746334b7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-bac23fe7ff13dbdb461481f706f0e9fe746334b7-zip-a434ea.tar",
+                    "reference": "bac23fe7ff13dbdb461481f706f0e9fe746334b7",
+                    "shasum": "7e892b6b6e2127048d8e293fba15678d95c52937",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "myclabs/deep-copy": "^1.6.1",
+                    "phar-io/manifest": "^1.0.1",
+                    "phar-io/version": "^1.0",
+                    "php": "^7.0",
+                    "phpspec/prophecy": "^1.7",
+                    "phpunit/php-code-coverage": "^5.3",
+                    "phpunit/php-file-iterator": "^1.4.3",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^1.0.9",
+                    "phpunit/phpunit-mock-objects": "^5.0.9",
+                    "sebastian/comparator": "^2.1",
+                    "sebastian/diff": "^2.0",
+                    "sebastian/environment": "^3.1",
+                    "sebastian/exporter": "^3.1",
+                    "sebastian/global-state": "^2.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^1.0",
+                    "sebastian/version": "^2.0.1"
+                },
+                "conflict": {
+                    "phpdocumentor/reflection-docblock": "3.0.2",
+                    "phpunit/dbunit": "<3.0"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^1.1"
+                },
+                "time": "2019-02-01T05:22:47+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "6.5.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "9b3373439fdf2f3e9d1578f5e408a3a0d161c3bc"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-9b3373439fdf2f3e9d1578f5e408a3a0d161c3bc-zip-529ef2.tar",
+                    "reference": "9b3373439fdf2f3e9d1578f5e408a3a0d161c3bc",
+                    "shasum": "3b7bbf9958cd329f19627ca9c2e6d8797dee979d",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "myclabs/deep-copy": "^1.6.1",
+                    "phar-io/manifest": "^1.0.1",
+                    "phar-io/version": "^1.0",
+                    "php": "^7.1",
+                    "phpspec/prophecy": "^1.7",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/php-file-iterator": "^1.4.3",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^2.0",
+                    "phpunit/phpunit-mock-objects": "^6.0",
+                    "sebastian/comparator": "^2.1",
+                    "sebastian/diff": "^3.0",
+                    "sebastian/environment": "^3.1",
+                    "sebastian/exporter": "^3.1",
+                    "sebastian/global-state": "^2.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^1.0",
+                    "sebastian/version": "^2.0.1"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^2.0"
+                },
+                "time": "2018-02-02T05:04:08+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "7.5.20",
+                "version_normalized": "7.5.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "9467db479d1b0487c99733bb1e7944d32deded2c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-9467db479d1b0487c99733bb1e7944d32deded2c-zip-024fb8.tar",
+                    "reference": "9467db479d1b0487c99733bb1e7944d32deded2c",
+                    "shasum": "752f0bb5d848a9286baf5637d10220caaa3a2db2",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.1",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "myclabs/deep-copy": "^1.7",
+                    "phar-io/manifest": "^1.0.2",
+                    "phar-io/version": "^2.0",
+                    "php": "^7.1",
+                    "phpspec/prophecy": "^1.7",
+                    "phpunit/php-code-coverage": "^6.0.7",
+                    "phpunit/php-file-iterator": "^2.0.1",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^2.1",
+                    "sebastian/comparator": "^3.0",
+                    "sebastian/diff": "^3.0",
+                    "sebastian/environment": "^4.0",
+                    "sebastian/exporter": "^3.1",
+                    "sebastian/global-state": "^2.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^2.0",
+                    "sebastian/version": "^2.0.1"
+                },
+                "conflict": {
+                    "phpunit/phpunit-mock-objects": "*"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^2.0"
+                },
+                "time": "2020-01-08T08:45:45+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.5-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "8.5.0",
+                "version_normalized": "8.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "3ee1c1fd6fc264480c25b6fb8285edefe1702dab"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-3ee1c1fd6fc264480c25b6fb8285edefe1702dab-zip-471495.tar",
+                    "reference": "3ee1c1fd6fc264480c25b6fb8285edefe1702dab",
+                    "shasum": "f101ab2a28c9be788844480a150902e648649ddf",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.2.0",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "ext-xmlwriter": "*",
+                    "myclabs/deep-copy": "^1.9.1",
+                    "phar-io/manifest": "^1.0.3",
+                    "phar-io/version": "^2.0.1",
+                    "php": "^7.2",
+                    "phpspec/prophecy": "^1.8.1",
+                    "phpunit/php-code-coverage": "^7.0.7",
+                    "phpunit/php-file-iterator": "^2.0.2",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^2.1.2",
+                    "sebastian/comparator": "^3.0.2",
+                    "sebastian/diff": "^3.0.2",
+                    "sebastian/environment": "^4.2.2",
+                    "sebastian/exporter": "^3.1.1",
+                    "sebastian/global-state": "^3.0.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^2.0.1",
+                    "sebastian/type": "^1.1.3",
+                    "sebastian/version": "^2.0.1"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^2.0.0"
+                },
+                "time": "2019-12-06T05:41:38+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "8.5-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "8.5.5",
+                "version_normalized": "8.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "63dda3b212a0025d380a745f91bdb4d8c985adb7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-63dda3b212a0025d380a745f91bdb4d8c985adb7-zip-08b224.tar",
+                    "reference": "63dda3b212a0025d380a745f91bdb4d8c985adb7",
+                    "shasum": "895824bf35f6e0f2ff19a6c4017bb834e74b2670",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.2.0",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "ext-xmlwriter": "*",
+                    "myclabs/deep-copy": "^1.9.1",
+                    "phar-io/manifest": "^1.0.3",
+                    "phar-io/version": "^2.0.1",
+                    "php": "^7.2",
+                    "phpspec/prophecy": "^1.8.1",
+                    "phpunit/php-code-coverage": "^7.0.7",
+                    "phpunit/php-file-iterator": "^2.0.2",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^2.1.2",
+                    "sebastian/comparator": "^3.0.2",
+                    "sebastian/diff": "^3.0.2",
+                    "sebastian/environment": "^4.2.2",
+                    "sebastian/exporter": "^3.1.1",
+                    "sebastian/global-state": "^3.0.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^2.0.1",
+                    "sebastian/type": "^1.1.3",
+                    "sebastian/version": "^2.0.1"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^2.0.0"
+                },
+                "time": "2020-05-22T13:51:52+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "8.5-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ],
+                "funding": [
+                    {
+                        "url": "https://phpunit.de/donate.html",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            },
+            {
+                "name": "phpunit/phpunit",
+                "version": "8.5.8",
+                "version_normalized": "8.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "34c18baa6a44f1d1fbf0338907139e9dce95b997"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/phpunit/phpunit/phpunit-phpunit-34c18baa6a44f1d1fbf0338907139e9dce95b997-zip-8cb19f.tar",
+                    "reference": "34c18baa6a44f1d1fbf0338907139e9dce95b997",
+                    "shasum": "7ce598785ef55254cd12de1cbb0927ae82442934",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.2.0",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "ext-xmlwriter": "*",
+                    "myclabs/deep-copy": "^1.9.1",
+                    "phar-io/manifest": "^1.0.3",
+                    "phar-io/version": "^2.0.1",
+                    "php": "^7.2",
+                    "phpspec/prophecy": "^1.8.1",
+                    "phpunit/php-code-coverage": "^7.0.7",
+                    "phpunit/php-file-iterator": "^2.0.2",
+                    "phpunit/php-text-template": "^1.2.1",
+                    "phpunit/php-timer": "^2.1.2",
+                    "sebastian/comparator": "^3.0.2",
+                    "sebastian/diff": "^3.0.2",
+                    "sebastian/environment": "^4.2.2",
+                    "sebastian/exporter": "^3.1.1",
+                    "sebastian/global-state": "^3.0.0",
+                    "sebastian/object-enumerator": "^3.0.3",
+                    "sebastian/resource-operations": "^2.0.1",
+                    "sebastian/type": "^1.1.3",
+                    "sebastian/version": "^2.0.1"
+                },
+                "require-dev": {
+                    "ext-pdo": "*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xdebug": "*",
+                    "phpunit/php-invoker": "^2.0.0"
+                },
+                "time": "2020-06-22T07:06:58+00:00",
+                "bin": [
+                    "phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "8.5-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "https://phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ],
+                "funding": [
+                    {
+                        "url": "https://phpunit.de/donate.html",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "packages": {
+        "zendframework/zend-servicemanager": [
+            {
+                "name": "zendframework/zend-servicemanager",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-servicemanager.git",
+                    "reference": "24295af94fbae15264745fc638d70103cb03d8bd"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-servicemanager/zendframework-zend-servicemanager-24295af94fbae15264745fc638d70103cb03d8bd-zip-7acadd.tar",
+                    "reference": "24295af94fbae15264745fc638d70103cb03d8bd",
+                    "shasum": "f5bb2cb85dc64a374af088c1d4dc5add4ee71ab4",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "suggest": {
+                    "zendframework/zend-di": "Zend\\Di component"
+                },
+                "time": "2012-10-17T13:43:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\ServiceManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-service-manager",
+                "keywords": [
+                    "servicemanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-servicemanager"
+            },
+            {
+                "name": "zendframework/zend-servicemanager",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-servicemanager.git",
+                    "reference": "80f00ce7417a045e0a07778d0daf7ca30c51c2d3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-servicemanager/zendframework-zend-servicemanager-80f00ce7417a045e0a07778d0daf7ca30c51c2d3-zip-522ccf.tar",
+                    "reference": "80f00ce7417a045e0a07778d0daf7ca30c51c2d3",
+                    "shasum": "2ff6b8acdf4c1b305b9ea40a3382d2522688cc20",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "suggest": {
+                    "zendframework/zend-di": "Zend\\Di component"
+                },
+                "time": "2013-01-29T22:23:49+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\ServiceManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-service-manager",
+                "keywords": [
+                    "servicemanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-servicemanager"
+            },
+            {
+                "name": "zendframework/zend-servicemanager",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-servicemanager.git",
+                    "reference": "b9eaf9e3268d2e10ddca807e3a2980b3e662a8e0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-servicemanager/zendframework-zend-servicemanager-b9eaf9e3268d2e10ddca807e3a2980b3e662a8e0-zip-d630ca.tar",
+                    "reference": "b9eaf9e3268d2e10ddca807e3a2980b3e662a8e0",
+                    "shasum": "93fe6e007e73f0e8891ba5bff668ae21d4a1dfa1",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "suggest": {
+                    "zendframework/zend-di": "Zend\\Di component"
+                },
+                "time": "2014-03-05T17:29:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev",
+                        "dev-develop": "2.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\ServiceManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-service-manager",
+                "keywords": [
+                    "servicemanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-servicemanager"
+            }
+        ]
+    }
+}

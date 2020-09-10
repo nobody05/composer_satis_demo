@@ -1,0 +1,77 @@
+{
+    "packages": {
+        "react/promise": [
+            {
+                "name": "react/promise",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/reactphp/promise.git",
+                    "reference": "a8ec7b446d6673901e3be20258d12b6b980af92f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/reactphp/promise/zipball/a8ec7b446d6673901e3be20258d12b6b980af92f",
+                    "reference": "a8ec7b446d6673901e3be20258d12b6b980af92f",
+                    "shasum": "",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.36"
+                },
+                "time": "2020-07-23T20:41:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "React\\Promise\\": "src/"
+                    },
+                    "files": [
+                        "src/functions_include.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Sorgalla",
+                        "email": "jsorgalla@gmail.com"
+                    }
+                ],
+                "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+                "keywords": [
+                    "promise",
+                    "promises"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/WyriHaximus",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/cboden",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/clue",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/jsor",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "packages": {
+        "justinrainbow/json-schema": [
+            {
+                "name": "justinrainbow/json-schema",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/justinrainbow/json-schema.git",
+                    "reference": "31b29546f49524cb0123fb5619107a9306444b60"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/justinrainbow/json-schema/justinrainbow-json-schema-31b29546f49524cb0123fb5619107a9306444b60-zip-df7f77.tar",
+                    "reference": "31b29546f49524cb0123fb5619107a9306444b60",
+                    "shasum": "408476b92a75d1b3cf01bec1459c2ac21157b653",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "json-schema/json-schema-test-suite": "1.2.0",
+                    "phpdocumentor/phpdocumentor": "~2",
+                    "phpunit/phpunit": "^4.8.22"
+                },
+                "time": "2016-10-10T12:37:37+00:00",
+                "bin": [
+                    "bin/validate-json"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsonSchema\\": "src/JsonSchema/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bruno Prieto Reis",
+                        "email": "bruno.p.reis@gmail.com"
+                    },
+                    {
+                        "name": "Justin Rainbow",
+                        "email": "justin.rainbow@gmail.com"
+                    },
+                    {
+                        "name": "Igor Wiedler",
+                        "email": "igor@wiedler.ch"
+                    },
+                    {
+                        "name": "Robert Schönthal",
+                        "email": "seroscho@googlemail.com"
+                    }
+                ],
+                "description": "A library to validate a json schema.",
+                "homepage": "https://github.com/justinrainbow/json-schema",
+                "keywords": [
+                    "json",
+                    "schema"
+                ]
+            },
+            {
+                "name": "justinrainbow/json-schema",
+                "version": "5.2.10",
+                "version_normalized": "5.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/justinrainbow/json-schema.git",
+                    "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/justinrainbow/json-schema/justinrainbow-json-schema-2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b-zip-d13d66.tar",
+                    "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                    "shasum": "9c72be51df3a4355c376641e304f72a69b88d255",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                    "json-schema/json-schema-test-suite": "1.2.0",
+                    "phpunit/phpunit": "^4.8.35"
+                },
+                "time": "2020-05-27T16:41:55+00:00",
+                "bin": [
+                    "bin/validate-json"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsonSchema\\": "src/JsonSchema/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bruno Prieto Reis",
+                        "email": "bruno.p.reis@gmail.com"
+                    },
+                    {
+                        "name": "Justin Rainbow",
+                        "email": "justin.rainbow@gmail.com"
+                    },
+                    {
+                        "name": "Igor Wiedler",
+                        "email": "igor@wiedler.ch"
+                    },
+                    {
+                        "name": "Robert Schönthal",
+                        "email": "seroscho@googlemail.com"
+                    }
+                ],
+                "description": "A library to validate a json schema.",
+                "homepage": "https://github.com/justinrainbow/json-schema",
+                "keywords": [
+                    "json",
+                    "schema"
+                ]
+            }
+        ]
+    }
+}

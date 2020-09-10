@@ -1,0 +1,135 @@
+{
+    "packages": {
+        "dflydev/markdown": [
+            {
+                "name": "dflydev/markdown",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dflydev/dflydev-markdown.git",
+                    "reference": "76501a808522dbe40a5a71d272bd08d54cbae03d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/dflydev/markdown/dflydev-markdown-76501a808522dbe40a5a71d272bd08d54cbae03d-zip-6a3bda.tar",
+                    "reference": "76501a808522dbe40a5a71d272bd08d54cbae03d",
+                    "shasum": "a3a923fa9a4bad3777289f2a5f72d7dceaf563a8",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2012-01-02T23:11:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "dflydev\\markdown": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "New BSD License"
+                ],
+                "authors": [
+                    {
+                        "name": "Dragonfly Development Inc.",
+                        "email": "info@dflydev.com",
+                        "homepage": "http://dflydev.com"
+                    },
+                    {
+                        "name": "Beau Simensen",
+                        "email": "beau@dflydev.com",
+                        "homepage": "http://beausimensen.com"
+                    },
+                    {
+                        "name": "Michel Fortin",
+                        "homepage": "http://michelf.com"
+                    },
+                    {
+                        "name": "John Gruber",
+                        "homepage": "http://daringfireball.net"
+                    }
+                ],
+                "description": "PHP Markdown & Extra",
+                "homepage": "http://github.com/dflydev/dflydev-markdown",
+                "keywords": [
+                    "markdown"
+                ],
+                "abandoned": "michelf/php-markdown"
+            },
+            {
+                "name": "dflydev/markdown",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dflydev/dflydev-markdown.git",
+                    "reference": "6baed9b50f29c980795b6656d43722aadb126f7e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/dflydev/markdown/dflydev-markdown-6baed9b50f29c980795b6656d43722aadb126f7e-zip-1f41b5.tar",
+                    "reference": "6baed9b50f29c980795b6656d43722aadb126f7e",
+                    "shasum": "91ecbb57d555b6b445e82b17889bf943df502af7",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2013-09-23T12:00:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "dflydev\\markdown": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Dragonfly Development Inc.",
+                        "email": "info@dflydev.com",
+                        "homepage": "http://dflydev.com"
+                    },
+                    {
+                        "name": "Beau Simensen",
+                        "email": "beau@dflydev.com",
+                        "homepage": "http://beausimensen.com"
+                    },
+                    {
+                        "name": "Michel Fortin",
+                        "homepage": "http://michelf.com"
+                    },
+                    {
+                        "name": "John Gruber",
+                        "homepage": "http://daringfireball.net"
+                    }
+                ],
+                "description": "PHP Markdown & Extra",
+                "homepage": "http://github.com/dflydev/dflydev-markdown",
+                "keywords": [
+                    "markdown"
+                ],
+                "abandoned": "michelf/php-markdown"
+            }
+        ]
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "packages": {
+        "zendframework/zend-serializer": [
+            {
+                "name": "zendframework/zend-serializer",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-serializer.git",
+                    "reference": "60a8f79185631505c61eb756aaf8bf7bc1cd076c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-serializer/zendframework-zend-serializer-60a8f79185631505c61eb756aaf8bf7bc1cd076c-zip-472a2d.tar",
+                    "reference": "60a8f79185631505c61eb756aaf8bf7bc1cd076c",
+                    "shasum": "281d4f61273bdadb1c741c5d8754cc2c6b282504",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-json": "self.version",
+                    "zendframework/zend-math": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-servicemanager": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-servicemanager": "To support plugin manager support"
+                },
+                "time": "2012-10-10T15:36:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Serializer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides an adapter based interface to simply generate storable representation of PHP types by different facilities, and recover",
+                "homepage": "https://github.com/zendframework/zend-serializer",
+                "keywords": [
+                    "serializer",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-serializer"
+            },
+            {
+                "name": "zendframework/zend-serializer",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-serializer.git",
+                    "reference": "81546fc4ebb6478161ae3d3e920da944dd6345fa"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-serializer/zendframework-zend-serializer-81546fc4ebb6478161ae3d3e920da944dd6345fa-zip-b44284.tar",
+                    "reference": "81546fc4ebb6478161ae3d3e920da944dd6345fa",
+                    "shasum": "66158062fbc34db1b7f0c106a5fb336541857742",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-json": "self.version",
+                    "zendframework/zend-math": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-servicemanager": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-servicemanager": "To support plugin manager support"
+                },
+                "time": "2013-01-26T11:18:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Serializer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides an adapter based interface to simply generate storable representation of PHP types by different facilities, and recover",
+                "homepage": "https://github.com/zendframework/zend-serializer",
+                "keywords": [
+                    "serializer",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-serializer"
+            },
+            {
+                "name": "zendframework/zend-serializer",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-serializer.git",
+                    "reference": "aabfa157039e0c8ca0627a002e8e8f13e62393a8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-serializer/zendframework-zend-serializer-aabfa157039e0c8ca0627a002e8e8f13e62393a8-zip-ba225e.tar",
+                    "reference": "aabfa157039e0c8ca0627a002e8e8f13e62393a8",
+                    "shasum": "2c25aafb073aa5d68fd76bcbc28d43c51e77e9ea",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-json": "self.version",
+                    "zendframework/zend-math": "self.version",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-servicemanager": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-servicemanager": "To support plugin manager support"
+                },
+                "time": "2014-03-05T17:29:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev",
+                        "dev-develop": "2.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Serializer\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides an adapter based interface to simply generate storable representation of PHP types by different facilities, and recover",
+                "homepage": "https://github.com/zendframework/zend-serializer",
+                "keywords": [
+                    "serializer",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-serializer"
+            }
+        ]
+    }
+}

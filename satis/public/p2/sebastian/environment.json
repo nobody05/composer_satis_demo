@@ -1,0 +1,706 @@
+{
+    "packages": {
+        "sebastian/environment": [
+            {
+                "name": "sebastian/environment",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "79517609ec01139cd7e9fded0dd7ce08c952ef6a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-79517609ec01139cd7e9fded0dd7ce08c952ef6a-zip-61878a.tar",
+                    "reference": "79517609ec01139cd7e9fded0dd7ce08c952ef6a",
+                    "shasum": "12f3c101a7641c51b120527a23956dd95db17420",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "4.0.*@dev"
+                },
+                "time": "2014-02-18T16:17:19+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "4fe0a44cddd8cc19583a024bdc7374eb2fef0b87"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-4fe0a44cddd8cc19583a024bdc7374eb2fef0b87-zip-e3a2e7.tar",
+                    "reference": "4fe0a44cddd8cc19583a024bdc7374eb2fef0b87",
+                    "shasum": "debebe4f342e079d72238af2d210963323c3e2c0",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2015-07-26T06:42:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-6324c907ce7a52478eeeaede764f48733ef5ae44-zip-16c89f.tar",
+                    "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44",
+                    "shasum": "1239649df4e77038ac88713b46edc82208e42e51",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2015-08-03T06:14:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "1.3.4",
+                "version_normalized": "1.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "22aa49baa48886f40b060e061a7967436f44a249"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-22aa49baa48886f40b060e061a7967436f44a249-zip-e41d2f.tar",
+                    "reference": "22aa49baa48886f40b060e061a7967436f44a249",
+                    "shasum": "44d9ab90002a25dbe3d172a1da1fb210e86bef08",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.4"
+                },
+                "time": "2016-02-26T11:40:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "1.3.8",
+                "version_normalized": "1.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-be2c607e43ce4c89ecd60e75c6a85c126e754aea-zip-edab34.tar",
+                    "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                    "shasum": "2ed222a537bf4871d9fa3ee5ed71b14d0ca29575",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^5.3.3 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8 || ^5.0"
+                },
+                "time": "2016-08-18T05:49:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "5795ffe5dc5b02460c3e34222fee8cbe245d8fac"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-5795ffe5dc5b02460c3e34222fee8cbe245d8fac-zip-f320b8.tar",
+                    "reference": "5795ffe5dc5b02460c3e34222fee8cbe245d8fac",
+                    "shasum": "c9acd8151f20a5a499a1eedb9220188d4ec68f75",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^5.6 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2016-11-26T07:53:53+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "9d38d4afcf391dbcc949fb0ba7b1ae25fe9cef3e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-9d38d4afcf391dbcc949fb0ba7b1ae25fe9cef3e-zip-b8eeec.tar",
+                    "reference": "9d38d4afcf391dbcc949fb0ba7b1ae25fe9cef3e",
+                    "shasum": "d295e9a271446571ccc4daabe001cd7c9363878a",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.1"
+                },
+                "time": "2017-04-21T07:54:19+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "cd0871b3975fb7fc44d11314fd1ee20925fce4f5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-cd0871b3975fb7fc44d11314fd1ee20925fce4f5-zip-b6a43c.tar",
+                    "reference": "cd0871b3975fb7fc44d11314fd1ee20925fce4f5",
+                    "shasum": "3a1c63821714bbf7c289d51c924bd95c3f17f7d7",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.1"
+                },
+                "time": "2017-07-01T08:51:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-febd209a219cea7b56ad799b30ebbea34b71eb8f-zip-74e836.tar",
+                    "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f",
+                    "shasum": "3f45e0cd0d6c53cd80f989fde3bb82d738b011ca",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.4"
+                },
+                "time": "2018-11-25T09:31:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "4.2.2",
+                "version_normalized": "4.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-f2a2c8e1c97c11ace607a7a667d73d47c19fe404-zip-8dc65c.tar",
+                    "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404",
+                    "shasum": "32b9b01c49c5e7920610fe266474ef723e7e9a5a",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5"
+                },
+                "suggest": {
+                    "ext-posix": "*"
+                },
+                "time": "2019-05-05T09:05:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.2-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "4.2.3",
+                "version_normalized": "4.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-464c90d7bdf5ad4e8a6aea15c091fec0603d4368-zip-90efac.tar",
+                    "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
+                    "shasum": "9f2ba1c6116abcfd5bb8ee9f9fc3ab03bb390632",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5"
+                },
+                "suggest": {
+                    "ext-posix": "*"
+                },
+                "time": "2019-11-20T08:46:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.2-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ]
+            },
+            {
+                "name": "sebastian/environment",
+                "version": "5.1.2",
+                "version_normalized": "5.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/environment.git",
+                    "reference": "0a757cab9d5b7ef49a619f1143e6c9c1bc0fe9d2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/sebastian/environment/sebastian-environment-0a757cab9d5b7ef49a619f1143e6c9c1bc0fe9d2-zip-9f6881.tar",
+                    "reference": "0a757cab9d5b7ef49a619f1143e6c9c1bc0fe9d2",
+                    "shasum": "e37e16d506c2a7ae56b5de0d7a2fdce59297a914",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.3 || ^8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0"
+                },
+                "suggest": {
+                    "ext-posix": "*"
+                },
+                "time": "2020-06-26T12:07:24+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Provides functionality to handle HHVM/PHP environments",
+                "homepage": "http://www.github.com/sebastianbergmann/environment",
+                "keywords": [
+                    "Xdebug",
+                    "environment",
+                    "hhvm"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sebastianbergmann",
+                        "type": "github"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "packages": {
+        "zendframework/zend-eventmanager": [
+            {
+                "name": "zendframework/zend-eventmanager",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-eventmanager.git",
+                    "reference": "bca58cfbbe846d0f5c907aa510a804270058ccc1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-eventmanager/zendframework-zend-eventmanager-bca58cfbbe846d0f5c907aa510a804270058ccc1-zip-668db1.tar",
+                    "reference": "bca58cfbbe846d0f5c907aa510a804270058ccc1",
+                    "shasum": "3bd4aeef6f964b7e1a98d8fa7e0bec912413794b",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "time": "2012-10-10T15:36:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\EventManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-event-manager",
+                "keywords": [
+                    "eventmanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-eventmanager"
+            },
+            {
+                "name": "zendframework/zend-eventmanager",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-eventmanager.git",
+                    "reference": "3420cc8621b47a1f8e475c29de7e086a54c2a089"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-eventmanager/zendframework-zend-eventmanager-3420cc8621b47a1f8e475c29de7e086a54c2a089-zip-4b9b0a.tar",
+                    "reference": "3420cc8621b47a1f8e475c29de7e086a54c2a089",
+                    "shasum": "9792006fc165b8f6a3ac1a888fafba568e8d8bcb",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "time": "2013-01-26T11:18:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\EventManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-event-manager",
+                "keywords": [
+                    "eventmanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-eventmanager"
+            },
+            {
+                "name": "zendframework/zend-eventmanager",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zendframework/zend-eventmanager.git",
+                    "reference": "aa23086ec1d6d0dad7a33e4eaf3fc851c2bc851b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/zendframework/zend-eventmanager/zendframework-zend-eventmanager-aa23086ec1d6d0dad7a33e4eaf3fc851c2bc851b-zip-622e12.tar",
+                    "reference": "aa23086ec1d6d0dad7a33e4eaf3fc851c2bc851b",
+                    "shasum": "5bedbbcc76542549a0624e0377a0f0c419916764",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "zendframework/zend-stdlib": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master"
+                },
+                "time": "2014-03-05T17:29:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev",
+                        "dev-develop": "2.3-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\EventManager\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "homepage": "https://github.com/zendframework/zend-event-manager",
+                "keywords": [
+                    "eventmanager",
+                    "zf2"
+                ],
+                "abandoned": "laminas/laminas-eventmanager"
+            }
+        ]
+    }
+}

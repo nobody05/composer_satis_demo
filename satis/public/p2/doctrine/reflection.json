@@ -1,0 +1,176 @@
+{
+    "packages": {
+        "doctrine/reflection": [
+            {
+                "name": "doctrine/reflection",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/reflection.git",
+                    "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/reflection/doctrine-reflection-b699ecc7f2784d1e49924fd9858cf1078db6b0e2-zip-670d24.tar",
+                    "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2",
+                    "shasum": "3c1d1d1e2a9410a4aa17bbcae19cea73cecdfd2a",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/annotations": "^1.0",
+                    "ext-tokenizer": "*",
+                    "php": "^7.1"
+                },
+                "conflict": {
+                    "doctrine/common": "<2.9"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^5.0",
+                    "doctrine/common": "^2.10",
+                    "phpstan/phpstan": "^0.11.0",
+                    "phpstan/phpstan-phpunit": "^0.11.0",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2020-03-21T11:34:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Marco Pivetta",
+                        "email": "ocramius@gmail.com"
+                    }
+                ],
+                "description": "The Doctrine Reflection project is a simple library used by the various Doctrine projects which adds some additional functionality on top of the reflection functionality that comes with PHP. It allows you to get the reflection information about classes, methods and properties statically.",
+                "homepage": "https://www.doctrine-project.org/projects/reflection.html",
+                "keywords": [
+                    "reflection",
+                    "static"
+                ]
+            },
+            {
+                "name": "doctrine/reflection",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/reflection.git",
+                    "reference": "55e71912dfcd824b2fdd16f2d9afe15684cfce79"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/reflection/doctrine-reflection-55e71912dfcd824b2fdd16f2d9afe15684cfce79-zip-1833c2.tar",
+                    "reference": "55e71912dfcd824b2fdd16f2d9afe15684cfce79",
+                    "shasum": "4720378491fbc974e203acd468f71dddd9de4d61",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "doctrine/annotations": "^1.0",
+                    "ext-tokenizer": "*",
+                    "php": "^7.1"
+                },
+                "conflict": {
+                    "doctrine/common": "<2.9"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^5.0",
+                    "doctrine/common": "^2.10",
+                    "phpstan/phpstan": "^0.11.0",
+                    "phpstan/phpstan-phpunit": "^0.11.0",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2020-03-27T11:06:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Marco Pivetta",
+                        "email": "ocramius@gmail.com"
+                    }
+                ],
+                "description": "The Doctrine Reflection project is a simple library used by the various Doctrine projects which adds some additional functionality on top of the reflection functionality that comes with PHP. It allows you to get the reflection information about classes, methods and properties statically.",
+                "homepage": "https://www.doctrine-project.org/projects/reflection.html",
+                "keywords": [
+                    "reflection",
+                    "static"
+                ]
+            }
+        ]
+    }
+}

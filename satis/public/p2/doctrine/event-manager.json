@@ -1,0 +1,184 @@
+{
+    "packages": {
+        "doctrine/event-manager": [
+            {
+                "name": "doctrine/event-manager",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/event-manager.git",
+                    "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/event-manager/doctrine-event-manager-a520bc093a0170feeb6b14e9d83f3a14452e64b3-zip-5b2ee9.tar",
+                    "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3",
+                    "shasum": "66ae5a5a56973bfcad4d48a03c9114d6cc8387cb",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "conflict": {
+                    "doctrine/common": "<2.9@dev"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^4.0",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2018-06-11T11:59:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Marco Pivetta",
+                        "email": "ocramius@gmail.com"
+                    }
+                ],
+                "description": "Doctrine Event Manager component",
+                "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+                "keywords": [
+                    "event",
+                    "eventdispatcher",
+                    "eventmanager"
+                ]
+            },
+            {
+                "name": "doctrine/event-manager",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/event-manager.git",
+                    "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/event-manager/doctrine-event-manager-41370af6a30faa9dc0368c4a6814d596e81aba7f-zip-0a5548.tar",
+                    "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f",
+                    "shasum": "6c8125456999ddc906fe673a98e6971d87ce6fa0",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "conflict": {
+                    "doctrine/common": "<2.9@dev"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^6.0",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2020-05-29T18:28:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Marco Pivetta",
+                        "email": "ocramius@gmail.com"
+                    }
+                ],
+                "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
+                "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+                "keywords": [
+                    "event",
+                    "event dispatcher",
+                    "event manager",
+                    "event system",
+                    "events"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.doctrine-project.org/sponsorship.html",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://www.patreon.com/phpdoctrine",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fevent-manager",
+                        "type": "tidelift"
+                    }
+                ]
+            }
+        ]
+    }
+}

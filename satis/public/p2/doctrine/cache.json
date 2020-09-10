@@ -1,0 +1,178 @@
+{
+    "packages": {
+        "doctrine/cache": [
+            {
+                "name": "doctrine/cache",
+                "version": "v1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/cache.git",
+                    "reference": "914abe4a49f2eae2b268073cca147b530da0308a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/cache/doctrine-cache-914abe4a49f2eae2b268073cca147b530da0308a-zip-551509.tar",
+                    "reference": "914abe4a49f2eae2b268073cca147b530da0308a",
+                    "shasum": "d5029d8c485baaf1a7593a9ad9b6880fe9fce98e",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2013-01-10T22:43:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Common\\Cache\\": "lib/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com",
+                        "homepage": "http://www.jwage.com/",
+                        "role": "Creator"
+                    },
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com",
+                        "homepage": "http://www.instaclick.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com",
+                        "homepage": "https://github.com/schmittjoh",
+                        "role": "Developer of wrapped JMSSerializerBundle"
+                    }
+                ],
+                "description": "Caching library offering an object-oriented API for many cache backends",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "cache",
+                    "caching"
+                ]
+            },
+            {
+                "name": "doctrine/cache",
+                "version": "1.10.2",
+                "version_normalized": "1.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/cache.git",
+                    "reference": "13e3381b25847283a91948d04640543941309727"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://127.0.0.1:8099//dist/doctrine/cache/doctrine-cache-13e3381b25847283a91948d04640543941309727-zip-46fa09.tar",
+                    "reference": "13e3381b25847283a91948d04640543941309727",
+                    "shasum": "8748226ba4e6c30f21e42080405580db182f02a7",
+                    "mirrors": [
+                        {
+                            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                            "preferred": true
+                        }
+                    ]
+                },
+                "require": {
+                    "php": "~7.1 || ^8.0"
+                },
+                "conflict": {
+                    "doctrine/common": ">2.2,<2.4"
+                },
+                "require-dev": {
+                    "alcaeus/mongo-php-adapter": "^1.1",
+                    "doctrine/coding-standard": "^6.0",
+                    "mongodb/mongodb": "^1.1",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "~1.0"
+                },
+                "suggest": {
+                    "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
+                },
+                "time": "2020-07-07T18:54:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
+                "homepage": "https://www.doctrine-project.org/projects/cache.html",
+                "keywords": [
+                    "abstraction",
+                    "apcu",
+                    "cache",
+                    "caching",
+                    "couchdb",
+                    "memcached",
+                    "php",
+                    "redis",
+                    "xcache"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.doctrine-project.org/sponsorship.html",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://www.patreon.com/phpdoctrine",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcache",
+                        "type": "tidelift"
+                    }
+                ]
+            }
+        ]
+    }
+}
